@@ -1,0 +1,8 @@
+# Build tooling for decks and PDF textbooks (decision 0004).
+# Direct dependencies, pinned to releases at least two weeks old on 2026-11-10.
+# The full resolved set, transitive dependencies included, is in tools/requirements.lock.
+# Changing this file installs something: it needs the author's approval (AGENTS.md).
+python-pptx==1.0.2
+weasyprint==70.0
+markdown-it-py==4.2.0
+PyYAML==6.0.3

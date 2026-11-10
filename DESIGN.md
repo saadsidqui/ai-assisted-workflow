@@ -106,13 +106,14 @@ The track hues are derived from the Okabe–Ito colour-blind-safe set and darken
 
 | Role | Family | Licence | Notes |
 |---|---|---|---|
-| Everything | Atkinson Hyperlegible Next | SIL Open Font License 1.1 (to confirm from the font files in Phase 3) | Designed for legibility; distinct forms for easily confused characters |
+| Everything | Atkinson Hyperlegible Next | SIL Open Font License 1.1 (confirmed from `OFL.txt`, 2026-11-10) | Designed for legibility; distinct forms for easily confused characters |
 | Code, commands, file names | Atkinson Hyperlegible Mono | Same | Same skeleton as the text face |
 
 - **Weights:** Regular (400) for text, SemiBold (600) for headings and labels, Bold (700) for slide and chapter titles.
 - **Italic:** for titles of works and for an English term at first mention where the glossary says so. Never for emphasis.
 - **Emphasis:** bold, used sparingly for a key word.
-- **Before adoption,** the font files must be checked for « », U+00A0 (non-breaking space), U+202F (narrow non-breaking space), ’, œ and Œ, and the accented capitals.
+- **Files:** in `assets/fonts/`, static weights Regular, Italic, SemiBold and Bold for Next, Regular and Bold for Mono.
+- **Coverage, checked on 2026-11-10:** the files cover « », U+00A0, ’, the curly quotes, the dashes, œ and Œ, and every accented letter used in French. They allow installable embedding (fsType 0). They have no U+202F, which this project does not use.
 
 ### 3.2 Surviving on a machine where nothing can be installed
 
@@ -213,7 +214,7 @@ The track hues are derived from the Okabe–Ito colour-blind-safe set and darken
 - **Register:** address participants as « vous ». Use plain language and the active voice. Sentences average 20 words or fewer. One idea per paragraph, and the important word comes first. The OQLF's guidance for slides asks for « simples, affirmatives, rédigées à la voix active » sentences and concise titles.
 - **Vocabulary:** concrete verbs and the glossary's terms. Each term has one rendering throughout. Never translate a sentence word for word from English; write it in French.
 - **Speaker notes:** the presenter is new to teaching and speaks slowly.
-  - Notes are written as full sentences the presenter can say, at about 110 words per planned minute.
+  - Notes are written as full sentences the presenter can say, at about 110 words per planned minute of talk (checkpoint and practice minutes excluded).
   - Stage directions go between square brackets: [Pause], [Passez à la diapositive suivante], [Attendez deux ou trois réponses].
   - Each segment opens with a timing mark, for example [12 min].
   - The transition into each checkpoint is written out word for word.
@@ -378,4 +379,4 @@ Checked on 2026-11-10.
 - **anti-slop,** miqdadbadjuber/anti-slop at commit `41b85ede0257f39bfcffedf3f58c3c59bcc8530d` (MIT): `skills/antislop/SKILL.md` (Part 1 and rules R-01 to R-40), `skills/antislop-copywriting/SKILL.md`, `skills/antislop-ui/SKILL.md`. Patterns are paraphrased here, not copied.
 - **Anthropic skills,** anthropics/skills at commit `2c5958ecac7cee2b583967a2c4981d0f4a75c579` (Apache-2.0 per folder): `skills/frontend-design/SKILL.md` and `skills/pptx/SKILL.md`. Patterns are paraphrased here, not copied.
 - **WCAG 2.2** (W3C), success criteria 1.4.1, 1.4.3, 1.4.6 and 1.4.11, listed in R-01.
-- **Atkinson Hyperlegible Next and Mono** (Braille Institute). The licence is confirmed from the font files in Phase 3.
+- **Atkinson Hyperlegible Next and Mono:** googlefonts/atkinson-hyperlegible-next at `7925f50f649b3813257faf2f4c0b381011f434f1`, and googlefonts/atkinson-hyperlegible-next-mono at `154d50362016cc3e873eb21d242cd0772384c8f9`. SIL Open Font License 1.1; see `THIRD_PARTY_NOTICES.md`.

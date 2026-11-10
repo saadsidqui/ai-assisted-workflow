@@ -19,7 +19,7 @@ A deliverable is done only when:
   2. The card's outcomes are stated. Every required topic is taught. Recommended and optional topics appear only in a reference section.
   3. The units follow the pedagogical pattern in `DESIGN.md`: a concrete example comes before the abstraction, and there is one idea per slide.
   4. Every slide region has a slide type from `DESIGN.md`, stays within its word limits, and carries speaker notes.
-  5. The speaker notes are written in full sentences at about 110 words per planned minute (within 15 %), with timing marks, the transition into each checkpoint, and "si vous êtes en retard" markers wherever the card or S-01 allows a cut.
+  5. The speaker notes are written in full sentences at about 110 words per planned minute of talk, checkpoint and practice minutes excluded (within 15 %), with timing marks, the transition into each checkpoint, and "si vous êtes en retard" markers wherever the card or S-01 allows a cut.
   6. The card's checkpoint is written out with the protocol in `DESIGN.md`.
   7. Product names follow the rule in `AGENTS.md`. Versions and dated behaviour appear only in C-02 and in the lesson's "re-verify" list.
 

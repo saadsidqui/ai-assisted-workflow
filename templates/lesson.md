@@ -69,6 +69,7 @@ How to use this template (English guidance; delete every GUIDE comment once the 
 
 | Étape | Minutes | Diapositives |
 |---|---|---|
+| Ouverture | [n] | 1 |
 | [Première idée] | [n] | [n à n] |
 | [Deuxième idée] | [n] | [n à n] |
 | Point de contrôle | [n] | [n] |

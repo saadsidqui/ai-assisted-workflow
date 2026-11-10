@@ -138,7 +138,7 @@ Before you report a deliverable as done, check each item that applies and report
 2. It follows its template and `DESIGN.md`: structure, slide types, word limits, tokens.
 3. Text and visuals pass the check against the patterns to avoid in `DESIGN.md`.
 4. French text passes the Canadian French check: glossary terms, typography, anglicisms.
-5. Speaker notes are written in full sentences, at about 110 words per planned minute, with timing marks and transitions.
+5. Speaker notes are written in full sentences, at about 110 words per planned minute of talk (checkpoint and practice minutes excluded), with timing marks and transitions.
 6. Every product fact is dated or sits in C-02 or a "re-verify" list. Every link was opened.
 7. Accessibility holds: the contrast targets are met, meaning is never carried by colour alone, and alt text is present.
 8. Built decks and PDFs were rendered and every slide or page image inspected. Outputs stay in `build/`.
