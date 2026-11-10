@@ -45,8 +45,9 @@ def load_patterns():
 
 
 def clean(line):
-    """Keep the prose of one Markdown line: drop code spans, URLs, link targets and HTML tags."""
+    """Keep the prose of one Markdown line: drop code spans, URLs, link targets, HTML tags and module IDs."""
     line = re.sub(r"`[^`]*`", " ", line)
+    line = re.sub(r"\b[BCEPRSX]-\d{2}(?:\.\d+)*\b", " ", line)  # module IDs such as E-03.2 are names, not numbers
     line = re.sub(r"<img\b[^>]*\balt=\"([^\"]*)\"[^>]*>", r" \1 ", line)
     line = re.sub(r"<[^>]+>", " ", line)
     line = re.sub(r"\]\([^)]*\)", "]", line)

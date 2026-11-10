@@ -23,7 +23,7 @@ French deliverables are written in French from the start. This skill checks them
 1. **Read the rules:** `DESIGN.md` sections 7 and 9, then [typography-checks.md](references/typography-checks.md), [anglicisms.md](references/anglicisms.md) and [terminology.md](references/terminology.md).
 2. **Typography pass.** Run every check in `typography-checks.md`. Its patterns find the mechanical errors: straight apostrophes, missing non-breaking spaces, a space before ; ! ?, English quotation marks, "9:00", "$25", "25%", decimal points, capitalized months, Title Case headings, headings ending in a period or colon, dashes. Read every hit in context before changing it: a pattern can match inside code or a quotation.
 3. **Terminology pass.** Every technical term must have its glossary rendering, and one term keeps one rendering in a file and across files.
-   - **Policy:** apply R-02's terminology policy, as summarized in `terminology.md`.
+   - **Policy:** apply the terminology policy of decision 0014 (see `terminology.md`).
    - **Missing term:** a term the glossary does not have is flagged for the glossary, with a candidate checked in the Grand dictionnaire terminologique (GDT). It is never invented.
    - **Names of the program's parts:** decision 0012.
 4. **Anglicism pass.** Look for every entry of `anglicisms.md`, in all its inflected forms.

@@ -44,7 +44,7 @@ Content and program decisions not yet taken. Each has a proposal and the point b
 - **Problem:** some candidates in [R-02](curriculum/resources/R-02-glossary-seed.md) look doubtful and need checking in the Grand dictionnaire terminologique: "rédactique" for prompt engineering, "point d'ancrage" for hook, "ajustement fin" for fine-tuning. R-02's terminology policy is also still "to confirm".
 - **Proposal:** check every candidate when the glossary is built, starting with these three, and have the author confirm the policy.
 - **Settle by:** the glossary (build order, step 2).
-- **Status:** open.
+- **Status:** settled on 2026-11-10 (decision 0014).
 
 ## Backlog items in suggestions.md
 

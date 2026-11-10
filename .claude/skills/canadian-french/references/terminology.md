@@ -6,18 +6,14 @@
 2. **Until then,** the candidates in the spec's R-02 card (`.ai/project/spec/curriculum/resources/R-02-glossary-seed.md`). They are candidates, not decisions. A lesson that uses one marks the term as unconfirmed in its front matter `glossary` list, for example `"jeton (à confirmer)"`.
 3. **The names of the program's parts:** decision 0012 (Tronc commun, Parcours Génie logiciel, Parcours Produit et expérience, Parcours Gestion et affaires, Modules transversaux).
 
-## Policy (R-02, to be confirmed by the author when the glossary is built)
+## Policy
 
-1. A French term exists and is in common use: use it.
-2. A French term exists but is rare: use the English term, and give the French term in parentheses at first mention.
-3. No settled French term: keep the English term, in italics at first mention.
-4. Product names, file names, commands and settings are never translated.
-5. One term, one rendering, across every lesson and slide.
+The terminology policy is decision 0014, restated at the top of the glossary.
 
 ## Checking a term
 
 1. Look it up in the Grand dictionnaire terminologique, at https://vitrinelinguistique.oqlf.gouv.qc.ca (search the term; the entries are under `/fiche-gdt/fiche/`). Note the preferred term, its synonyms, the subject field, and the year of the entry.
-2. If the GDT has no entry, look in Termium Plus (https://www.btb.termiumplus.gc.ca/) and record that source instead.
+2. If the GDT has no entry, record "no GDT record" with the search date. Termium Plus refuses automated reading; the author checks it when a choice depends on it.
 3. Record the result with its URL and date:
    - in the glossary once it exists;
    - otherwise in the lesson's report, as a candidate for the glossary.
