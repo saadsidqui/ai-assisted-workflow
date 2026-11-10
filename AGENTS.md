@@ -72,7 +72,7 @@ Files:             one line per file created, changed or moved, with its purpose
 Checks:            what you verified and the result
 Decisions I made:  small choices taken without asking
 Open questions:    anything the author must answer
-Suggested commit message: subject (imperative, ≤ 72 characters), then a 2–5 line body
+Suggested commit message: subject (imperative, ≤ 72 characters), a blank line, then a 2–5 line body
 Next:              what the following step will do
 Waiting for:       the author's review and commit
 ```
@@ -128,7 +128,7 @@ The lock is a rule you follow, not a technical barrier. It is backed by the auth
 - **No invention.** Do not invent facts, statistics, quotations, testimonials, references or sources. A statement that needs a source you could not open is left out or flagged.
 - **Product names.** Public AI tools, vendors, standards and sources may be named where a card's topics require it. Version numbers, release numbers and dated product behaviour appear only in C-02 (landscape snapshot), in "re-verify" lists and in dated resource lists.
 - **Third-party material.** It keeps its own licence, is copied only when that licence allows it, and is listed in `THIRD_PARTY_NOTICES.md`.
-- **No sensitive data.** No secrets, personal data or conversation transcripts go in any file, including state, handoffs and knowledge notes.
+- **No sensitive data.** No secrets, personal data, details of a particular machine (operating system, installed versions, security settings, other devices) or conversation transcripts go in any file, including state, handoffs and knowledge notes.
 
 ## Quality gates
 
