@@ -1,6 +1,7 @@
 # Initialization plan
 
-- Status: approved by the author on 2026-11-10; Phase 2 in progress
+- Status: approved by the author on 2026-11-10; Phase 4 (verify and lock) in progress
+- Sections 0 to 10 are the plan as approved. Paths there are as planned: for example, `seed/` has since moved to `spec/`, and `decks/` and `books/` are created on first use. The progress log at the end records what was done.
 - Date: 2026-11-10
 - Stage: init
 
@@ -179,7 +180,7 @@ YAML front matter holds `id`, `title`, `card`, `track`, `minutes`, `status` (`dr
 5. **Working loop for a task**: read the module card and its `module-map.md` row; state the plan (files and checks); make one small change; run the quality gates; report; stop for review.
 6. **Report format**: the batch report block (files, checks, decisions made, open questions, suggested commit message, next, waiting for).
 7. **Git**: the author owns the index, history and branches. The forbidden commands are listed by name (`add`, `commit`, `push`, `pull`, `merge`, `rebase`, `reset`, `restore`, `checkout`, `switch`, `stash`, `tag`, `clean`, `mv`, `rm`, `config`, `remote`). Read-only commands are allowed, and every one carries `-- . ':(exclude).ai/prompts'`. Files are moved or deleted with ordinary file operations, and only when the approved plan says so. Commit convention: `type(scope): imperative summary`, ≤ 72 characters; types `feat`, `fix`, `docs`, `build`, `refactor`, `style`, `chore`; scope is a module ID or an area; no trailer.
-8. **Stop and ask**: the nine conditions of the brief, worded for ongoing work. How to ask: everything in one message, numbered, each with a recommended answer and what changes with the answer, then end the turn.
+8. **Stop and ask**: the nine stop conditions set for this repository, worded for ongoing work. How to ask: everything in one message, numbered, each with a recommended answer and what changes with the answer, then end the turn.
 9. **Lifecycle and lock**: the stage line in `state.md`; the locked paths (section 3); the three-part rule; a note that the lock is a rule backed by the author's review, not a technical barrier.
 10. **Content rules**:
     - Language policy, with the glossary deciding terms.
@@ -527,7 +528,27 @@ Each batch ends with a report and a stop. The next batch starts with `git status
 | **3b** You install | Commands for the pinned skill files, `tools/requirements.txt` and the font files; I verify hashes and content | Hashes match section 6.4; licences present |
 | **3c** Publishing | `publish` skill; `tools/` scripts; manifest format; font test in LibreOffice (PowerPoint if you choose) | Trial deck and PDF built and inspected; `DESIGN.md` typography updated with the result |
 | **3d** Registers | `skills-register.md`, the skills section of `CLAUDE.md`, `THIRD_PARTY_NOTICES.md` | Every third-party item listed with source, version and licence |
-| **Phase 4** | Section 9 checks of the brief; cold-start test; first handoff; report | As the brief describes; lock on your word |
+| **Phase 4** | The "done means" checks below; cold-start test; first handoff; report | Lock on the author's word |
+
+### Phase 4: "done means" checks
+
+1. `CLAUDE.md` imports `AGENTS.md`, and both are within their length targets (30 and 150 lines).
+2. A session with no prior context answers these from the files alone:
+   - what the project is;
+   - what stage it is in;
+   - which files it may edit;
+   - what it does before ending a session;
+   - where the specification is;
+   - what the next task is.
+3. The specification is in one place, the seed is not duplicated, and every module ID maps to a lesson path.
+4. `DESIGN.md` reflects the chosen direction, with computed contrast ratios and a named list of patterns to avoid.
+5. `README.md` has the licence section with the copyright line exactly as given, and `LICENSE` holds the official text.
+6. Every third-party item is listed with its source, version and licence.
+7. No file names or describes a real employer, client, team, internal product or private person other than the author line, and nothing explains why.
+8. `.ai/prompts/` was never read or written, and `.claude/settings.json` is unchanged unless the author changed it.
+9. No lesson, slide or workshop content was written.
+10. Each batch was reported, reviewed and committed before the next began.
+11. The state file shows the locked stage, and the first handoff exists.
 
 ## 8. Open decisions that can wait
 
@@ -578,3 +599,17 @@ At lock, this file moves to `.ai/project/decisions/0001-initialization-plan.md` 
   - Remaining for 3c-2: final checks (compile, neutrality, `git status`), the state file, and the batch report. Then 3d (skills register, `CLAUDE.md` skills section, notices), then Phase 4.
 - 2026-11-10 3c-2 final checks done; the Liberation Sans question is partly confirmed (`DESIGN.md` §3.2). Batch report given; waiting for the author's commit.
 - 2026-11-10 3c-2 committed as `e71ea17`. The author confirmed that the trial deck and PDF render correctly in PowerPoint on Windows and LibreOffice on Linux, and asked not to depend on Liberation Sans: Arial is a system font on Windows and macOS. `DESIGN.md` §3.2 is updated. Sub-batch 3d (skills register, `CLAUDE.md` skills section, notices) started.
+- 2026-11-10 Sub-batch 3d committed as `0d78083`; Phase 3 complete. Phase 4 started.
+- 2026-11-10 Phase 4 checks:
+  - items 1, 3 to 6 and 8 to 10 pass;
+  - item 7: the README said "each organization", now "the organization", in both languages (an uncommitted Phase 4 change). A seed sentence in `spec/suggestions.md` D.5 is put to the author;
+  - item 2: the cold-start sub-agent answered all six questions from the files;
+  - item 11 waits for the lock.
+- 2026-11-10 Cold-start fixes:
+  - `AGENTS.md`: "most recent dated handoff"; handoff, then state, at session end; locked files apply from `build`;
+  - `CLAUDE.md`: the author runs `/session-handoff`;
+  - `spec/README.md`: "Nothing else changed" clarified;
+  - this plan: header status, a note on as-planned paths, the Phase 4 checks written here instead of referring to the brief;
+  - `state.md` rewritten.
+  First handoff written. Waiting for the author to review and confirm the lock.
+- 2026-11-10 The author answered the D.5 question: the explanatory sentence is removed and the rule kept (decision 0013). Check 7 passes. Waiting for the author to commit and confirm the lock.

@@ -49,13 +49,13 @@ If you notice a disagreement, stop and ask (see below); never resolve it silentl
 
 At the start:
 
-1. Read `.ai/project/state.md`, the most recent file in `.ai/project/handoffs/`, and, while the stage is `init`, the initialization plan.
+1. Read `.ai/project/state.md`, the most recent dated handoff in `.ai/project/handoffs/` (not `TEMPLATE.md`), and, while the stage is `init`, the initialization plan.
 2. Run `git status -- . ':(exclude).ai/prompts'`. If changes from the previous step are still uncommitted, ask whether to continue or wait, and add nothing until the author answers.
 
 At the end of a session, or when context runs low:
 
-1. Update `state.md`: current focus, next steps, open questions.
-2. Write `.ai/project/handoffs/YYYY-MM-DD-<slug>.md` from `TEMPLATE.md`.
+1. Write `.ai/project/handoffs/YYYY-MM-DD-<slug>.md` from `TEMPLATE.md`.
+2. Update `state.md`: current focus, next steps, open questions.
 3. Give the author a suggested commit message.
 
 ## Working loop
@@ -93,7 +93,7 @@ Stop and ask the author, instead of deciding, when:
 
 1. A requirement is missing or ambiguous in a way that changes what you would write.
 2. Two sources disagree: the author, the specification, a decision record, `DESIGN.md`, the repository or the settings.
-3. You would create, move, delete or change a file that the task or plan does not cover, or any locked file.
+3. You would create, move, delete or change a file that the task or plan does not cover, or, from stage `build`, any locked file.
 4. You think a permission rule, an ignore rule or anything under `.claude/` should change.
 5. You would install something, run code that came from a third party, or download anything other than reading a page.
 6. The choice is one of taste the author will live with: a name people will see, the visual direction, the voice, the structure of the lesson tree.

@@ -25,6 +25,6 @@ A card has a header (where it sits, who, delivery, time), a short rationale, out
 
 ## Origin and changes
 
-The specification began as planning input in `.ai/project/seed/` and moved here during initialization. Seven sentences that referred to documents outside the repository were reworded so that each stands alone (decision 0009). Nothing else changed.
+The specification began as planning input in `.ai/project/seed/` and moved here during initialization. Seven sentences that referred to documents outside the repository were reworded so that each stands alone (decision 0009). One explanatory sentence was removed from suggestion D.5 (decision 0013). No other text of the planning input changed. The other files in this folder were added during initialization.
 
 Once the stage is `build`, every file in this folder is locked. A change needs the author's approval (`AGENTS.md`, lifecycle and lock).

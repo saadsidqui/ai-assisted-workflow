@@ -13,7 +13,7 @@ What is specific to Claude Code. Every working rule is in `AGENTS.md`, imported 
 - `publish`: build and inspect decks and PDF textbooks. Use it instead of any account-level document skill, such as `pptx` or `pdf`.
 - `grilling`: interview the author to settle an open decision or a gap in the specification.
 - `writing-for-agents`: change `AGENTS.md`, `CLAUDE.md` or a skill (locked files: approval first).
-- `/session-handoff`: run it at the end of every work session.
+- `/session-handoff`: the author runs it at the end of a work session. When the author has not, follow the same routine from `AGENTS.md`.
 
 The register, with sources and versions, is `.ai/project/skills-register.md`.
 

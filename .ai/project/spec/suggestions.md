@@ -61,7 +61,7 @@ Items already built into the outline are marked *(in the outline)*. The others a
 2. **Write the glossary before the lessons.** Every lesson depends on its terms, and retrofitting terminology across forty files is slow.
 3. **Build slides from the lessons, on demand.** The markdown is the source. A deck is generated when a delivery is scheduled, so it is never out of date with the text.
 4. **Give the snapshot an owner and a refresh routine.** Without a named person and a trigger (each delivery, or monthly), the "current state" module is the first thing to go stale.
-5. **Keep every example synthetic and organization-neutral.** It protects confidentiality and lets the same material be delivered to any organization.
+5. **Keep every example synthetic and organization-neutral.**
 6. **Run every piece of text and every visual through a check for machine-made patterns, then a human read.** An AI course that reads as machine-written loses the room in the first minute.
 7. **Review links and "re-verify" lists before each delivery.** Each module card lists what goes stale; that list is the pre-delivery checklist.
 8. **Have a native speaker review the French against the glossary** before the first delivery and after any large change.

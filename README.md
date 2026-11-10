@@ -23,7 +23,7 @@ It is for:
 - presenters who deliver the sessions;
 - contributors who maintain the material.
 
-The material is organization-neutral. Examples and exercises are fictional, and each organization adds its own approved tools and rules through a replaceable policy pack.
+The material is organization-neutral. Examples and exercises are fictional, and the organization adds its approved tools and rules through a replaceable policy pack.
 
 ## How the material is organized
 
@@ -99,7 +99,7 @@ Il s’adresse :
 - aux personnes qui présentent les séances;
 - aux personnes qui entretiennent le contenu.
 
-Le contenu est neutre : les exemples et les exercices sont fictifs. Chaque organisation ajoute ses propres outils approuvés et ses règles au moyen d’un dossier de politiques remplaçable.
+Le contenu est neutre : les exemples et les exercices sont fictifs. L’organisation ajoute ses outils approuvés et ses règles au moyen d’un dossier de politiques remplaçable.
 
 ## Organisation du contenu
 

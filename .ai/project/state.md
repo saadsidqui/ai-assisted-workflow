@@ -6,16 +6,23 @@ Last updated: 2026-11-10
 
 ## Current focus
 
-Initialization, Phase 3 (skills). Sub-batch 3d: skills register, the skills section of `CLAUDE.md`, the third-party notices, and `DESIGN.md` §3.2 after the author's PowerPoint and LibreOffice check. This is the last Phase 3 sub-batch.
+Initialization, Phase 4 (verify and lock).
+- The "done means" checks are run.
+- The cold-start test passed, and the gaps it found are fixed.
+- The first handoff is written (`.ai/project/handoffs/2026-11-10-initialization.md`).
+
+Waiting for the author to review, commit and confirm the lock.
 
 ## Next steps
 
-1. Phase 4: verify the "done means" list, run the cold-start test with a fresh sub-agent, write the first handoff, and ask the author to confirm the lock.
-3. Sub-batch 3d: skills register, `CLAUDE.md` skills section, third-party notices.
-4. Phase 4: verify, cold-start test, first handoff, lock.
-
-The initialization plan (`.ai/project/init-plan.md`) holds the details and the progress log.
+1. **When the author replies "lock":**
+   - set `Stage: build` above;
+   - move `.ai/project/init-plan.md` to `.ai/project/decisions/0001-initialization-plan.md` with `Status: accepted`;
+   - record the lock in the handoff and tell the author what to commit.
+2. **After the lock:** build order step 2, the glossary (R-02). First, settle OD-06 (glossary candidates) with the author. Then step 3, the fictional engagement brief (OD-11, with `grilling`).
 
 ## Open questions
 
-None waiting on the author for initialization. Content and program decisions that can wait are in `.ai/project/spec/open-decisions.md`.
+None for initialization.
+
+Content and program decisions that can wait are in `.ai/project/spec/open-decisions.md`.
