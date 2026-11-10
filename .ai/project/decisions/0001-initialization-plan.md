@@ -1,9 +1,10 @@
-# Initialization plan
+# 0001. Initialization plan
 
-- Status: approved by the author on 2026-11-10; Phase 4 (verify and lock) in progress
-- Sections 0 to 10 are the plan as approved. Paths there are as planned: for example, `seed/` has since moved to `spec/`, and `decks/` and `books/` are created on first use. The progress log at the end records what was done.
 - Date: 2026-11-10
-- Stage: init
+- Status: accepted
+- Supersedes: none
+- Approved by the author on 2026-11-10. Initialization locked on 2026-11-10, when the author confirmed it complete; the stage became `build`.
+- Sections 0 to 10 are the plan as approved. Paths there are as planned: for example, `seed/` has since moved to `spec/`, and `decks/` and `books/` are created on first use. The progress log at the end records what was done.
 
 This file is the resume point while the stage is `init`. If a session starts without context, read this file from top to bottom, then the progress log at the end. Nothing here is learner-facing; it is written in English.
 
@@ -613,3 +614,4 @@ At lock, this file moves to `.ai/project/decisions/0001-initialization-plan.md` 
   - `state.md` rewritten.
   First handoff written. Waiting for the author to review and confirm the lock.
 - 2026-11-10 The author answered the D.5 question: the explanatory sentence is removed and the rule kept (decision 0013). Check 7 passes. Waiting for the author to commit and confirm the lock.
+- 2026-11-10 Phase 4 committed as `4bbab4d`. The author confirmed the lock. `state.md` set to `Stage: build`; this file moved to `.ai/project/decisions/0001-initialization-plan.md` with `Status: accepted`; the lock recorded in the first handoff. Initialization complete.

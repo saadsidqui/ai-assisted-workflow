@@ -1,7 +1,7 @@
 # Handoff: Repository initialization
 
 - Date: 2026-11-10
-- Stage: init (lock pending the author's confirmation)
+- Stage: build (initialization locked on 2026-11-10)
 
 ## Goal
 
@@ -9,7 +9,7 @@ Set up the repository so that the training program can be built in small, review
 
 ## Done
 
-The initialization plan is approved, and its progress log records every step (`.ai/project/init-plan.md`; decision 0001 after the lock). In short:
+The initialization plan is approved, and its progress log records every step (decision 0001, `.ai/project/decisions/0001-initialization-plan.md`). In short:
 
 - **Phase 0 and 1:** the repository and the seed were read, the author's decisions were recorded (decisions 0002 to 0012), and the plan was approved (`469bcc6`).
 - **Phase 2:**
@@ -29,11 +29,13 @@ The initialization plan is approved, and its progress log records every step (`.
   - the "done means" checks were run;
   - the cold-start test was run with a fresh sub-agent;
   - its gaps were fixed;
-  - this handoff was written.
+  - this handoff was written;
+  - all of it was committed as `4bbab4d`.
+- **Lock:** the author confirmed initialization complete. The stage is `build`, and the plan is decision 0001.
 
 ## Files changed
 
-Phase 4 changes, not yet committed:
+Phase 4 changes, committed as `4bbab4d`:
 
 - `README.md`: "each organization" became "the organization", in English and French (check 7).
 - `AGENTS.md`:
@@ -42,12 +44,18 @@ Phase 4 changes, not yet committed:
   - locked files count from stage `build`.
 - `CLAUDE.md`: the author runs `/session-handoff`; otherwise the agent follows the routine in `AGENTS.md`.
 - `.ai/project/spec/README.md`: "Nothing else changed" clarified.
-- `.ai/project/init-plan.md`: header status, a note on as-planned paths, the Phase 4 checks, progress entries.
+- `.ai/project/init-plan.md` (now decision 0001): header status, a note on as-planned paths, the Phase 4 checks, progress entries.
 - `.ai/project/state.md`: rewritten for Phase 4 and the lock.
 - `.ai/project/handoffs/2026-11-10-initialization.md`: this file.
 - `.ai/project/spec/suggestions.md`: suggestion D.5 reduced to its rule, at the author's request (decision 0013, recorded in `.ai/project/decisions/0013-suggestion-d5-reduced-to-rule.md`); `spec/README.md` notes it.
 
-Locked files changed: none (stage `init`; the lock starts at `build`).
+Lock changes, not yet committed:
+
+- `.ai/project/init-plan.md` moved to `.ai/project/decisions/0001-initialization-plan.md`: numbered title, `Status: accepted`, the lock date, and a final progress entry. Its content is otherwise unchanged (plan, section 9).
+- `.ai/project/state.md`: `Stage: build`; focus and next steps for the first content step.
+- This handoff: the lock recorded.
+
+Locked files changed: none. The lock was made at the author's word: "Lock", 2026-11-10.
 
 ## Checks run and results
 
@@ -60,17 +68,12 @@ Locked files changed: none (stage `init`; the lock starts at `build`).
 - **Pass:** every batch is a separate commit, reviewed by the author first.
 - **Neutrality:** no organization name, email or absolute path in any tracked file. The one seed sentence explaining why was removed at the author's request.
 - **Cold start:** a fresh sub-agent answered all six questions from the files. The gaps it reported are fixed (see "Files changed").
+- **Pass:** `state.md` shows `Stage: build`, and this handoff exists (check 11).
 
 ## Open questions
 
-None. The question about suggestion D.5 was answered: reduced to its rule (decision 0013).
+None for initialization. The question about suggestion D.5 was answered: reduced to its rule (decision 0013). Content decisions that can wait are in `.ai/project/spec/open-decisions.md`.
 
 ## Next step
 
-When the author replies "lock":
-1. Set `Stage: build` in `state.md`.
-2. Move `init-plan.md` to `decisions/0001-initialization-plan.md` with `Status: accepted`.
-3. Record the lock here.
-4. Tell the author what to commit.
-
-After that, build order step 2: the glossary.
+Build order step 2, the glossary R-02. Settle OD-06 (the glossary candidates to check first) with the author before drafting `resources/R-02-glossary.md`. Then step 3, the fictional engagement brief (OD-11, with `grilling`).
