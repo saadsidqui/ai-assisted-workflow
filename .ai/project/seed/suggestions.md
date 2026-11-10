@@ -1,0 +1,75 @@
+# Suggestions, improvements and adjacent topics
+
+Companion to the [curriculum outline](curriculum/README.md). Each item says why it matters, where it lands, and how soon it is worth doing:
+
+- **Do first**: the session is weaker or riskier without it.
+- **Worth doing**: clear benefit, can follow the first delivery.
+- **Later**: valuable once the basics are running.
+
+Items already built into the outline are marked *(in the outline)*. The others are proposals to accept or drop.
+
+## A. Session design
+
+1. **Plan the session shorter than its booking.** The earlier plan labelled its run of show 105 minutes while its segments added up to 95, and it had no break. The outline plans 100 minutes inside a 120-minute booking and 80 inside 90, with the margin left unallocated for a slow pace and questions. *Lands in: [S-01](curriculum/session/S-01-run-of-show.md). Do first. (in the outline)*
+2. **Carry one example through the whole session.** A single fictional request appears in the demonstration, in every checkpoint and in the recap. Switching examples costs a novice presenter time and costs the audience attention. *Lands in: [C-04](curriculum/core/C-04-working-loop-and-prompting.md), [S-01](curriculum/session/S-01-run-of-show.md). Do first. (in the outline)*
+3. **Put a planted trap in every workshop pack.** Each pack contains a gap or contradiction that an assistant usually covers with something plausible. Participants who verify find it, and that moment teaches human review better than any slide. *Lands in: [S-02](curriculum/session/S-02-workshop.md). Do first. (in the outline)*
+4. **Check tool access a week ahead.** The workshop fails if a third of the room cannot sign in. Confirm accounts, licences and network access, and decide which approved tool the exercise uses. *Lands in: [S-01](curriculum/session/S-01-run-of-show.md). Do first.*
+5. **Record the demonstration.** Live tools fail in front of an audience, and a novice presenter recovers badly. Record it, keep the recording one click away, and re-record when the interface changes. *Lands in: [C-04](curriculum/core/C-04-working-loop-and-prompting.md). Do first.*
+6. **Write the speaker notes in full.** For a first-time presenter: complete sentences, timing marks, the exact transition into each checkpoint, and "if late, skip to here" markers. About 110 words per planned minute. *Lands in: [R-03](curriculum/resources/R-03-asset-backlog.md). Do first.*
+7. **Give the presenter a second person.** Someone else watches the chat, keeps the parking lot and the clock, and helps during the workshop. *Lands in: [S-01](curriculum/session/S-01-run-of-show.md). Worth doing.*
+8. **Treat agents as normal, not advanced.** The earlier plan placed agents in optional material. Agentic work is now the ordinary way engineers use AI, so it is required in the engineering track and has a three-minute plain-language place in the common session. *Lands in: [C-08](curriculum/core/C-08-from-assistant-to-agent.md), [E-01](curriculum/tracks/engineering/E-01-coding-assistants-and-agents.md). Do first. (in the outline)*
+9. **Separate what lasts from what changes.** The earlier approach was so vendor-neutral that it never delivered the "current state" the brief asks for. A dated snapshot module carries all product names and versions and is replaced as a unit; everything else is written to survive a change of vendor. *Lands in: [C-02](curriculum/core/C-02-landscape-snapshot.md). Do first. (in the outline)*
+10. **Teach briefing, not prompt tricks.** Role-play openers, "think step by step" and capital letters no longer earn their place with current models, which respond to clear context and to an effort setting. Teaching them dates the session. *Lands in: [C-04](curriculum/core/C-04-working-loop-and-prompting.md). Do first. (in the outline)*
+11. **Name the worry early.** Two minutes in the welcome on what this changes about people's jobs, stated plainly: skills shift toward specifying, reviewing and deciding. An audience that is quietly anxious does not learn. *Lands in: [S-01](curriculum/session/S-01-run-of-show.md), [B-05](curriculum/tracks/business-people/B-05-leading-adoption.md). Worth doing.*
+12. **Measure before and after.** A five-question survey on current use and confidence, sent before the session and repeated after. It gives the presenter a baseline and gives leadership a first measure that is not a prompt count. *Lands in: [S-01](curriculum/session/S-01-run-of-show.md). Worth doing.*
+13. **Three tracks, with tiers per role.** Designers and content roles join product and analysis instead of forming a fourth track, which keeps sessions viable for small teams. Each track page still shows the tier for every role. *Lands in: track pages. Do first. (in the outline)*
+
+## B. Adjacent topics
+
+1. **Working inside a client's environment.** Neither earlier approach covered people who work under a client's rules. The client's policy comes first, including over the organization's own approved tools. *Lands in: [X-01](curriculum/overlays/X-01-working-in-a-client-environment.md). Do first. (in the outline)*
+2. **An end-to-end engagement map.** The stated goal is AI assistance from the first client meeting to the deliverable. A single map shows the stages, the artifact that passes between roles at each one, and who approves. It connects the three tracks and is what makes the workflow reproducible across roles. *Lands in: [X-03](curriculum/overlays/X-03-end-to-end-engagement-map.md). Do first. (in the outline)*
+3. **One fictional engagement for all exercises.** The same invented client and project feed every workshop, so each track works on a different stage of one story and the handoffs between roles become visible. *Lands in: [S-02](curriculum/session/S-02-workshop.md), [X-03](curriculum/overlays/X-03-end-to-end-engagement-map.md). Worth doing.*
+4. **Usage policy and data classification as a prerequisite.** People need to know which tools and which data are approved before the workshop, not after. If the organization has no one-page "what goes where" matrix, producing it is the first task. *Lands in: [X-02](curriculum/overlays/X-02-jurisdiction-and-policy-pack.md), [C-07](curriculum/core/C-07-data-security-and-responsible-use.md), [B-05](curriculum/tracks/business-people/B-05-leading-adoption.md). Do first.*
+5. **A replaceable local policy pack.** Privacy law, language requirements and the approved-tool list sit in one pack that can be swapped per organization and jurisdiction. The default pack covers Quebec and Canada and should be reviewed by the organization's privacy lead. *Lands in: [X-02](curriculum/overlays/X-02-jurisdiction-and-policy-pack.md). Do first. (in the outline)*
+6. **Meeting recording and transcription.** Assistants that join and transcribe meetings are the easiest way to breach consent rules and client agreements without noticing. *Lands in: [C-07](curriculum/core/C-07-data-security-and-responsible-use.md), [P-03](curriculum/tracks/product-experience/P-03-planning-delivery-and-reporting.md). Do first.*
+7. **Review capacity as the new constraint.** Agents produce more than teams can review. Automation bias and review fatigue deserve explicit treatment, with smaller batches and evidence-based review as the answer. *Lands in: [C-06](curriculum/core/C-06-gates-and-human-review.md), [E-05](curriculum/tracks/engineering/E-05-verification-testing-and-qa.md). Do first. (in the outline)*
+8. **Prompt injection and agent security.** Content an agent reads can carry instructions. The combination of private data, untrusted content and a way to send data out is the pattern to break. *Lands in: [C-07](curriculum/core/C-07-data-security-and-responsible-use.md), [E-07](curriculum/tracks/engineering/E-07-security-for-ai-assisted-development.md). Do first. (in the outline)*
+9. **Third-party skills, plugins and connectors as a supply chain.** They run with the developer's access and are usually installed unread. Review, pin, record the licence. *Lands in: [E-03.5](curriculum/tracks/engineering/repo-setup/E-03.5-skills.md), [E-07](curriculum/tracks/engineering/E-07-security-for-ai-assisted-development.md). Do first. (in the outline)*
+10. **Junior development and skill atrophy.** Mixed-seniority teams need a position on how juniors learn when an agent can write the code: explain-it-back rules, using the tool as a tutor, deliberate practice without it. *Lands in: [E-01](curriculum/tracks/engineering/E-01-coding-assistants-and-agents.md), [B-05](curriculum/tracks/business-people/B-05-leading-adoption.md). Worth doing.*
+11. **Cost and limits literacy.** Subscription versus usage-based pricing, rate limits, and choosing a smaller model or lower effort for routine work. *Lands in: [C-02](curriculum/core/C-02-landscape-snapshot.md), [E-01](curriculum/tracks/engineering/E-01-coding-assistants-and-agents.md), [B-05](curriculum/tracks/business-people/B-05-leading-adoption.md). Worth doing.*
+12. **Evaluation literacy.** Deciding what "good" looks like before generating, and comparing outputs against criteria instead of impressions. *Lands in: [C-06](curriculum/core/C-06-gates-and-human-review.md), [P-04](curriculum/tracks/product-experience/P-04-design-and-prototyping.md). Worth doing.*
+13. **Disclosure and intellectual property.** A stated position on when AI assistance is disclosed, who owns AI-assisted output under client contracts, and attribution in commits. *Lands in: [X-01](curriculum/overlays/X-01-working-in-a-client-environment.md), [B-05](curriculum/tracks/business-people/B-05-leading-adoption.md). Worth doing.*
+14. **French-language quality.** Writing in French instead of translating, a terminology policy, and review against the official terminology resources. This is a quality topic for the lessons themselves as much as for participants. *Lands in: [P-05](curriculum/tracks/product-experience/P-05-content-and-ux-writing.md), [R-02](curriculum/resources/R-02-glossary-seed.md). Do first. (in the outline)*
+15. **An incident path.** What to do in the first ten minutes after pasting something that should not have been pasted, with a named contact and no blame. *Lands in: [C-07](curriculum/core/C-07-data-security-and-responsible-use.md), [X-02](curriculum/overlays/X-02-jurisdiction-and-policy-pack.md). Worth doing.*
+16. **Accessibility of the material itself.** Slides readable when projected, sufficient contrast, meaning never carried by colour alone, a handout that works for someone who could not follow the slides. *Lands in: [R-03](curriculum/resources/R-03-asset-backlog.md). Worth doing.*
+17. **Local and open-weight models.** Out of scope for a cloud-focused first round, and a frequent question from engineers. One optional pointer is enough. *Lands in: [C-02](curriculum/core/C-02-landscape-snapshot.md). Later.*
+
+## C. Follow-up sessions
+
+1. **Track sessions within two weeks.** Five for engineering, three for product and experience, two for business and people, each planned at 60 to 80 minutes of a 90-minute booking. *Worth doing; plans are on the track pages.*
+2. **A leadership session on adoption**, ideally before the track sessions so that policy questions raised there have answers. *Lands in: [B-05](curriculum/tracks/business-people/B-05-leading-adoption.md). Do first.*
+3. **A repo setup lab.** Hands-on, on a sample repository: instruction file, permissions, a skill, a handoff. Engineering sessions 2 to 4 are this lab in three parts. *Lands in: [E-03.1](curriculum/tracks/engineering/repo-setup/E-03.1-structure-and-instruction-files.md) to [E-03.6](curriculum/tracks/engineering/repo-setup/E-03.6-memory-knowledge-specs-state-handoffs.md). Worth doing.*
+4. **A short recurring "what changed" update.** Twenty minutes whenever the landscape snapshot is refreshed. It keeps the program current without re-running it. *Lands in: [C-02](curriculum/core/C-02-landscape-snapshot.md). Worth doing.*
+5. **Office hours and show-and-tell.** A standing slot where people bring a real task, and a monthly session where one team shows a workflow that worked and one that did not. *Lands in: [B-05](curriculum/tracks/business-people/B-05-leading-adoption.md). Worth doing.*
+6. **From specification to shipped change, in pairs.** A product person and an engineer take one story from acceptance criteria to a reviewed change. It exercises the handoff the engagement map describes. *Lands in: [P-02](curriculum/tracks/product-experience/P-02-requirements-and-specs.md), [E-04](curriculum/tracks/engineering/E-04-specs-and-context-engineering.md). Later.*
+7. **Agent security for engineers.** A deeper session with a live injection exercise in a sandbox. *Lands in: [E-07](curriculum/tracks/engineering/E-07-security-for-ai-assisted-development.md), [E-03.3](curriculum/tracks/engineering/repo-setup/E-03.3-sandboxing-and-isolation.md). Later.*
+8. **Automation and unattended agents.** For DevOps and tech leads once interactive use is established. *Lands in: [E-08](curriculum/tracks/engineering/E-08-automation-and-operations.md), [E-09](curriculum/tracks/engineering/E-09-extending-agents.md). Later.*
+
+## D. Building and maintaining the material
+
+1. **One module card, one lesson, one group of slides, one ID.** Updating a topic then touches one card and one lesson, and a deck is assembled from module groups instead of being edited as a monolith.
+2. **Write the glossary before the lessons.** Every lesson depends on its terms, and retrofitting terminology across forty files is slow.
+3. **Build slides from the lessons, on demand.** The markdown is the source. A deck is generated when a delivery is scheduled, so it is never out of date with the text.
+4. **Give the snapshot an owner and a refresh routine.** Without a named person and a trigger (each delivery, or monthly), the "current state" module is the first thing to go stale.
+5. **Keep every example synthetic and organization-neutral.** It protects confidentiality and lets the same material be delivered to any organization.
+6. **Run every piece of text and every visual through a check for machine-made patterns, then a human read.** An AI course that reads as machine-written loses the room in the first minute.
+7. **Review links and "re-verify" lists before each delivery.** Each module card lists what goes stale; that list is the pre-delivery checklist.
+8. **Have a native speaker review the French against the glossary** before the first delivery and after any large change.
+
+## E. Deliberately left out
+
+- **A catalogue of prompt tricks.** It ages within months and teaches the wrong habit.
+- **Vendor rankings and model comparisons.** They are out of date on arrival; the snapshot gives categories and the organization's approved tools instead.
+- **How models work internally.** One accurate mental model is enough for the common session; the rest is optional reading.
+- **Step-by-step product walkthroughs in the lessons.** Interface instructions belong in the tool's own documentation or in a short, dated appendix.
+- **A fourth track.** Small teams make it impractical, and the role tables do the same job.

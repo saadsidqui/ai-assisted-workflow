@@ -16,7 +16,8 @@
         "deny": [
 			"Read(./.ai/prompts/**)",
 			"Edit(./.ai/prompts/**)",
-            "Edit(./**/.git/**)"
+            "Edit(./**/.git/**)",
+			"Bash(git push *)"
         ]
     }
 }
