@@ -90,6 +90,7 @@ These sources informed this repository, but no text from them is stored in it.
   - miqdadbadjuber/anti-slop, commit `41b85ede0257f39bfcffedf3f58c3c59bcc8530d` (MIT).
   - anthropics/skills, `frontend-design` and `pptx`, commit `2c5958ecac7cee2b583967a2c4981d0f4a75c579` (Apache-2.0 per folder).
 - **Notes on retrieval, spacing and interleaving** in `.claude/skills/lesson-writing/references/pedagogy.md`: paraphrased from the `teach` skill in mattpocock/skills, commit `4ae2317ddb22b046e26455e4f9c9b3aaaf62212d` (MIT).
+- **The render-and-inspect loop** in the `publish` skill and `tools/render_preview.py`, and the attention to font metrics in LibreOffice previews: informed by the `pptx` skill in anthropics/skills, commit `2c5958ecac7cee2b583967a2c4981d0f4a75c579` (Apache-2.0). No code or text was copied; the tools were written here.
 - **Track colours in `DESIGN.md`:** derived from the Okabe–Ito colour-blind-safe set, then adjusted for contrast.
 
 ## Installed, not stored
@@ -104,3 +105,4 @@ These Python packages are installed into the ignored `.venv/` from `tools/requir
 ## Linked, not stored
 
 - The badges in `README.md` are images served by shields.io when the page is viewed.
+- Decks built by `tools/build_deck.py` name the system fonts Arial and Courier New (`DESIGN.md` §3.2). Those fonts are neither stored in the repository nor embedded in the decks.

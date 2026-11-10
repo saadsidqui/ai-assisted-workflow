@@ -577,3 +577,4 @@ At lock, this file moves to `.ai/project/decisions/0001-initialization-plan.md` 
   - the `publish` skill and the tools README added.
   - Remaining for 3c-2: final checks (compile, neutrality, `git status`), the state file, and the batch report. Then 3d (skills register, `CLAUDE.md` skills section, notices), then Phase 4.
 - 2026-11-10 3c-2 final checks done; the Liberation Sans question is partly confirmed (`DESIGN.md` §3.2). Batch report given; waiting for the author's commit.
+- 2026-11-10 3c-2 committed as `e71ea17`. The author confirmed that the trial deck and PDF render correctly in PowerPoint on Windows and LibreOffice on Linux, and asked not to depend on Liberation Sans: Arial is a system font on Windows and macOS. `DESIGN.md` §3.2 is updated. Sub-batch 3d (skills register, `CLAUDE.md` skills section, notices) started.

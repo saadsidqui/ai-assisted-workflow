@@ -120,10 +120,10 @@ The track hues are derived from the Okabe–Ito colour-blind-safe set and darken
 - **PDF textbooks and handouts:** the fonts are embedded in every PDF.
 - **Decks:** a deck must open with its intended metrics in LibreOffice (the main target) and in PowerPoint, on a machine where no font can be installed.
   - Tested on 2026-11-10 (initialization, Phase 3): LibreOffice 24.2 ignored fonts embedded in the `.pptx` and substituted another face.
-  - So decks name **Arial** (mono: Courier New). LibreOffice renders them with the metric-compatible Liberation Sans (and Liberation Mono), PowerPoint with Arial.
+  - So decks name **Arial** (mono: Courier New). These are standard system fonts on Windows and macOS, where PowerPoint and LibreOffice render them as named. On Linux, LibreOffice uses a metric-compatible substitute such as Liberation Sans when one is installed. The decks do not depend on it.
   - Atkinson Hyperlegible remains the face of PDFs, handouts, diagrams and README images. `tools/build_deck.py --fonts atkinson` exists only for machines where it is installed.
-  - Partly confirmed: the Document Foundation wiki lists Liberation Sans among the fonts LibreOffice bundles on Windows and macOS (https://wiki.documentfoundation.org/Fonts/ko, seen in a search on 2026-11-10). The list is not dated to a current release, so check it on a current install before the first delivery. Where it is missing, LibreOffice substitutes another sans-serif face.
-- **README images:** the SVG text uses the stack `"Atkinson Hyperlegible Next", "Atkinson Hyperlegible", Verdana, Arial, sans-serif`. Layouts keep at least 20 % horizontal slack so that a substituted font still fits.
+  - Checked by the author on 2026-11-10: the trial deck and textbook render correctly in PowerPoint on Windows and in LibreOffice on Linux.
+- **README images:** the SVG text sets the attribute `font-family="Atkinson Hyperlegible Next, Atkinson Hyperlegible, Verdana, Arial, sans-serif"` (unquoted names; LibreOffice ignores quoted ones and the CSS `font:` shorthand). Layouts keep at least 20 % horizontal slack so that a substituted font still fits.
 
 ### 3.3 Sizes
 

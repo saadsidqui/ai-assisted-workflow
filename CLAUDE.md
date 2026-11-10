@@ -6,11 +6,16 @@ What is specific to Claude Code. Every working rule is in `AGENTS.md`, imported 
 
 ## Project skills
 
-None yet. Phase 3 of the initialization plan adds them here, one line each on when to use it.
+- `lesson-writing`: write or revise a lesson from its module card.
+- `canadian-french`: check any French deliverable before it is reported done.
+- `slop-check`: check text and visuals for machine-made patterns before they are reported done.
+- `visual-design`: diagrams, README images, slide and page layout, contrast.
+- `publish`: build and inspect decks and PDF textbooks. Use it instead of any account-level document skill, such as `pptx` or `pdf`.
+- `grilling`: interview the author to settle an open decision or a gap in the specification.
+- `writing-for-agents`: change `AGENTS.md`, `CLAUDE.md` or a skill (locked files: approval first).
+- `/session-handoff`: run it at the end of every work session.
 
-## Routing
-
-For decks, PDF textbooks and any document output, use the project skill `publish` once it exists. Do not use an account-level document skill such as `pptx` or `pdf`.
+The register, with sources and versions, is `.ai/project/skills-register.md`.
 
 ## Memory
 
