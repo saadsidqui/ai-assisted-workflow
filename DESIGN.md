@@ -91,6 +91,7 @@ The track hues are derived from the Okabe–Ito colour-blind-safe set and darken
   - A common-session deck uses `core`.
   - A track deck, handout or textbook uses its track's colour.
   - An overlay takes the colour of the session or book it appears in.
+  - The one exception is the program map in the README and in textbook front matter. It shows the whole network, so each line keeps its own colour.
 - The track colour appears on these elements, with no others:
   - the stop map;
   - section and chapter-opener fields;
@@ -264,7 +265,7 @@ Confirmed on 2026-11-10 against the Banque de dépannage linguistique of the Off
 | Dash in running text | Allowed by the OQLF to set off a passage. This project's choice: use commas or parentheses instead, and keep the dash for schedules | n/a | 23378 |
 | Inclusive writing | See section 7 | n/a | 23983, 25421 |
 
-Three conventions used here are not stated on the OQLF pages that were read. They need the author's confirmation:
+Three conventions used here are not stated on the OQLF pages that were read. The author confirmed them on 2026-11-10:
 
 1. In a document's own headings and slide titles, capitals go on the first word and proper nouns only, as for titles of works.
 2. Names of months and days take no capital in running text. This matches every OQLF example read.
