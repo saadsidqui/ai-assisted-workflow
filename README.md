@@ -110,7 +110,7 @@ Le contenu est neutre : les exemples et les exercices sont fictifs. L’organis
 | Parcours Produit et expérience | Gestion de produit, analyse, design | Trois séances : de la découverte à la spécification, livraison et design, contenu et données |
 | Parcours Gestion et affaires | Gestion, ressources humaines, développement des affaires et autres fonctions | Deux séances sur la rédaction, la recherche, la gestion des ressources humaines et le développement des affaires, puis une séance pour la direction sur l’adoption |
 | Modules transversaux | Chaque parcours | Travailler dans l’environnement d’un client, le dossier de politiques locales, la carte d’un mandat de bout en bout |
-| Ressources | Tout le monde | Glossaire, lectures complémentaires, fiches d’une page |
+| Ressources | Tout le monde | Glossaire, lectures complémentaires, documents d’accompagnement d’une page |
 
 Chaque partie correspond à des fiches de module dans la spécification (`.ai/project/spec/curriculum/`, rédigée en anglais). Chaque module devient une leçon en français dans `lessons/`, sous le même identifiant.
 
@@ -118,8 +118,8 @@ Chaque partie correspond à des fiches de module dans la spécification (`.ai/pr
 
 ### Vous suivez la formation
 
-- **Langue :** les leçons, les fiches et les trousses d’atelier sont rédigées en français canadien.
-- **Emplacement :** les leçons se trouvent dans `lessons/`, regroupées par partie; les fiches sont dans `handouts/`.
+- **Langue :** les leçons, les documents d’accompagnement et les trousses d’atelier sont rédigées en français canadien.
+- **Emplacement :** les leçons se trouvent dans `lessons/`, regroupées par partie; les documents d’accompagnement sont dans `handouts/`.
 - **Manuels et diaporamas :** un manuel PDF pour le tronc commun et pour chaque parcours, de même que les diaporamas, sont produits sur demande. Ils sont publiés comme fichiers joints à une publication GitHub (release) et ne sont pas conservés dans le dépôt.
 
 ### Vous présentez
@@ -141,7 +141,7 @@ Chaque partie correspond à des fiches de module dans la spécification (`.ai/pr
 
 ## État
 
-Rien n’est encore produit. Le dépôt contient la spécification, les règles de travail et l’orientation graphique. Les leçons, les trousses d’atelier, les fiches, les diaporamas et les manuels suivront, dans l’ordre fixé dans [`build-order.md`](.ai/project/spec/build-order.md).
+Rien n’est encore produit. Le dépôt contient la spécification, les règles de travail et l’orientation graphique. Les leçons, les trousses d’atelier, les documents d’accompagnement, les diaporamas et les manuels suivront, dans l’ordre fixé dans [`build-order.md`](.ai/project/spec/build-order.md).
 
 ## Licence
 
