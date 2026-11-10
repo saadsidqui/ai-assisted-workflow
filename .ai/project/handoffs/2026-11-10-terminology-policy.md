@@ -17,6 +17,8 @@ Start build order step 2, the glossary (R-02): settle OD-06, then write the firs
 - **GDT sources:** each GDT entry was opened on 2026-11-10, and the URLs are in the glossary.
 - **Batch 2a** was committed as `e3118ff`.
 - **Batch 2b written:** 34 more card terms and 4 additions (application, IA agentive, revue de code, énoncé de projet), all checked in the GDT. The glossary now has 48 entries and 29 excluded terms. The author settled the last four terms (*commit*/*push*, *accountability*, *handout*, *engagement*; decision 0015). The glossary has 53 entries and 37 excluded terms.
+- **Batch 2b** was committed as `52fd628`.
+- **Batch 2c, part 1 written:** a one-sentence definition and a workplace example for the 31 entries from « agent » to « itération ». The definitions of model, application, tool and agent follow C-01.
 
 ## Files changed
 
@@ -50,4 +52,4 @@ None. The four batch 2b questions were answered (decision 0015).
 
 ## Next step
 
-Batch 2c: a definition and a workplace example for every entry, an English-to-French index, then the French and slop checks.
+Batch 2c, part 2: the 22 entries from « jeton » to « structuration contextuelle », the English-to-French index, then the French and slop checks on the whole glossary.
