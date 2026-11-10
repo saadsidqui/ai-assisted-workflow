@@ -1,0 +1,37 @@
+# An ignore rule is not an access control: agents and tools can still read ignored files.
+
+# Personal and local agent files
+.claude/settings.local.json
+CLAUDE.local.md
+.claude/worktrees/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Python tooling
+.venv/
+__pycache__/
+*.py[cod]
+
+# Built output: decks, PDFs, previews, tool caches (published as release assets, not committed)
+/build/
+
+# Office lock and temporary files
+~$*
+.~lock.*#
+*.tmp
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating systems
+.DS_Store
+Thumbs.db
+desktop.ini
+.directory
