@@ -560,3 +560,4 @@ At lock, this file moves to `.ai/project/decisions/0001-initialization-plan.md` 
 - 2026-11-10 Phase 0 complete: repository and seed read; answers to Q1 to Q16 recorded in section 0.
 - 2026-11-10 Phase 1: this plan written. Section 10 questions answered (seed moves to `spec/`; no edge line; stage `build`; skill names approved). Waiting for the author's review and approval of the whole plan.
 - 2026-11-10 Phase 1 approved; plan committed as `469bcc6`. Batch 1 (`AGENTS.md`, `CLAUDE.md`, `.gitignore`) started.
+- 2026-11-10 Batch 1 committed as `16004ea`. Batch 2a (move the seed to `spec/`, rewrite the seven sentences) started.

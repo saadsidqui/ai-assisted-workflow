@@ -5,7 +5,7 @@
 - **Delivery:** Core session, 3 slides inside segment 2; full version self-serve
 - **Time:** 4 min in session, 15 min full
 
-The audience asked for the current state of AI. Names and capabilities change every quarter, so this is the one module that is dated, owned and replaced as a unit. Every other module stays valid when it changes.
+The program has to give the current state of AI. Names and capabilities change every quarter, so this is the one module that is dated, owned and replaced as a unit. Every other module stays valid when it changes.
 
 ## Outcomes
 

@@ -5,7 +5,7 @@
 - **Delivery:** Overlay: closing segment of each track session; full version self-serve
 - **Time:** 10 min
 
-The stated goal is AI assistance from the first client meeting to the deliverable. Each track covers its own stage; this map shows how the stages connect, what passes between roles, and where a person signs off.
+The program covers AI assistance from the first client meeting to the deliverable. Each track covers its own stage; this map shows how the stages connect, what passes between roles, and where a person signs off.
 
 ## Outcomes
 
