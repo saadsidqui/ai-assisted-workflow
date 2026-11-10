@@ -566,3 +566,4 @@ At lock, this file moves to `.ai/project/decisions/0001-initialization-plan.md` 
 - 2026-11-10 Batch 3 committed as `82b932d`. The author confirmed the three French conventions in `DESIGN.md` section 9 (sentence-case headings, lowercase months and days, « de 9 h à 17 h »); the note is updated in Batch 4. Batch 4 (README, licences, notices, README images) started.
 - 2026-11-10 Batch 4 committed as `bb1d50a`. On GitHub, the light page showed the dark map: `<picture>` follows the browser's colour preference, not the GitHub theme. Fix: each map variant now has an opaque background, and `DESIGN.md` section 6 records the rule.
 - 2026-11-10 Fix committed as `f11c329`. Batch 5 (lesson template, empty lesson tree) started.
+- 2026-11-10 Batch 5 committed as `e6d8fa7`; Phase 2 complete. Phase 3, sub-batch 3a (the five skills written here, with trials) started. The skill set is the one in section 6.1, unchanged.

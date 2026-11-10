@@ -6,12 +6,14 @@ Last updated: 2026-11-10
 
 ## Current focus
 
-Initialization, Phase 2 (scaffold). Batch 5: `templates/lesson.md` and the empty lesson tree. This is the last Phase 2 batch.
+Initialization, Phase 3 (skills). Sub-batch 3a: the five skills written here (`lesson-writing`, `canadian-french`, `slop-check`, `visual-design`, `session-handoff`), each tried on an off-topic sample.
 
 ## Next steps
 
-1. Phase 3: skills, tools, fonts. The deck font test settles section 3.2 of `DESIGN.md`.
-2. Phase 4: verify, cold-start test, first handoff, lock.
+1. Sub-batch 3b: install commands for the pinned third-party skill files, the Python environment and the fonts; the author installs, then the agent verifies.
+2. Sub-batch 3c: the `publish` skill and `tools/`; the deck font test settles section 3.2 of `DESIGN.md`.
+3. Sub-batch 3d: skills register, `CLAUDE.md` skills section, third-party notices.
+4. Phase 4: verify, cold-start test, first handoff, lock.
 
 The initialization plan (`.ai/project/init-plan.md`) holds the details and the progress log.
 
