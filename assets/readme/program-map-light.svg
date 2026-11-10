@@ -6,6 +6,7 @@
 .fr { font: 400 15px "Atkinson Hyperlegible Next", "Atkinson Hyperlegible", Verdana, Arial, sans-serif; fill: #4D5562; }
 .line { fill: none; stroke-width: 8; stroke-linecap: round; stroke-linejoin: round; }
 </style>
+<rect width="960" height="390" fill="#FFFFFF"/>
 <path class="line" stroke="#00735A" d="M330 190 L430 90 H900"/>
 <path class="line" stroke="#9B3F78" d="M330 190 L430 290 H900"/>
 <path class="line" stroke="#B04A00" d="M330 190 H900"/>

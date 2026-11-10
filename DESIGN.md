@@ -204,6 +204,7 @@ The track hues are derived from the Okabe–Ito colour-blind-safe set and darken
 - **Handouts:** a single US Letter page, 0.6 in margins, a small stop map at top right, and no information that exists only in the slides.
 - **README:**
   - Images switch between their light and dark variants with `<picture>` and `prefers-color-scheme`.
+  - Each variant carries its own opaque background: `#FFFFFF` for light, `#0D1117` for dark. The media query follows the browser's colour preference, which can differ from the GitHub theme, so either variant must stay legible on either page.
   - At most four badges, coloured with the tokens.
   - Headings in sentence case. No emoji.
 
