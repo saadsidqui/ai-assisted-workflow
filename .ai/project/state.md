@@ -6,11 +6,11 @@ Last updated: 2026-11-10
 
 ## Current focus
 
-Initialization, Phase 3 (skills). Sub-batch 3c-1: the checkers (`check_lesson.py`, `check_french.py`, `check_contrast.py`) and the preview renderer (`render_preview.py`) in `tools/`.
+Initialization, Phase 3 (skills). Sub-batch 3c-2: the deck and textbook builders, the `publish` skill, and the deck font test (decks use Arial, `DESIGN.md` §3.2).
 
 ## Next steps
 
-1. Sub-batch 3c-2: the deck and textbook builders, the manifest formats, and the `publish` skill. The deck font test settles section 3.2 of `DESIGN.md`.
+1. Sub-batch 3d: skills register, the skills section of `CLAUDE.md`, the remaining third-party notices.
 3. Sub-batch 3d: skills register, `CLAUDE.md` skills section, third-party notices.
 4. Phase 4: verify, cold-start test, first handoff, lock.
 

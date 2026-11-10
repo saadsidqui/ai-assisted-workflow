@@ -1,25 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 390" width="960" height="390" role="img" aria-labelledby="title desc">
 <title id="title">Program map / Carte du programme</title>
 <desc id="desc">The common core is one session for everyone. From it, three tracks branch off: Engineering with five sessions, Product and experience with three, and Business and people with three. Overlays cross every track.</desc>
-<style>
-.en { font: 600 16px "Atkinson Hyperlegible Next", "Atkinson Hyperlegible", Verdana, Arial, sans-serif; fill: #15181D; }
-.fr { font: 400 15px "Atkinson Hyperlegible Next", "Atkinson Hyperlegible", Verdana, Arial, sans-serif; fill: #4D5562; }
-.line { fill: none; stroke-width: 8; stroke-linecap: round; stroke-linejoin: round; }
-</style>
 <rect width="960" height="390" fill="#FFFFFF"/>
-<path class="line" stroke="#00735A" d="M330 190 L430 90 H900"/>
-<path class="line" stroke="#9B3F78" d="M330 190 L430 290 H900"/>
-<path class="line" stroke="#B04A00" d="M330 190 H900"/>
-<path class="line" stroke="#0B5CAD" d="M40 190 H330"/>
+<path fill="none" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" stroke="#00735A" d="M330 190 L430 90 H900"/>
+<path fill="none" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" stroke="#9B3F78" d="M330 190 L430 290 H900"/>
+<path fill="none" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" stroke="#B04A00" d="M330 190 H900"/>
+<path fill="none" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" stroke="#0B5CAD" d="M40 190 H330"/>
 <line x1="505" y1="62" x2="505" y2="318" stroke="#808896" stroke-width="3" stroke-dasharray="8 7"/>
 <circle cx="330" cy="190" r="12" fill="#FFFFFF" stroke="#15181D" stroke-width="4"/>
 <circle cx="180" cy="190" r="8" fill="#FFFFFF" stroke="#0B5CAD" stroke-width="4"/>
 <circle cx="580" cy="90" r="8" fill="#FFFFFF" stroke="#00735A" stroke-width="4"/><circle cx="660" cy="90" r="8" fill="#FFFFFF" stroke="#00735A" stroke-width="4"/><circle cx="740" cy="90" r="8" fill="#FFFFFF" stroke="#00735A" stroke-width="4"/><circle cx="820" cy="90" r="8" fill="#FFFFFF" stroke="#00735A" stroke-width="4"/><circle cx="900" cy="90" r="8" fill="#FFFFFF" stroke="#00735A" stroke-width="4"/>
 <circle cx="580" cy="190" r="8" fill="#FFFFFF" stroke="#B04A00" stroke-width="4"/><circle cx="740" cy="190" r="8" fill="#FFFFFF" stroke="#B04A00" stroke-width="4"/><circle cx="900" cy="190" r="8" fill="#FFFFFF" stroke="#B04A00" stroke-width="4"/>
 <circle cx="580" cy="290" r="8" fill="#FFFFFF" stroke="#9B3F78" stroke-width="4"/><circle cx="740" cy="290" r="8" fill="#FFFFFF" stroke="#9B3F78" stroke-width="4"/><circle cx="900" cy="290" r="8" fill="#FFFFFF" stroke="#9B3F78" stroke-width="4"/>
-<text x="180" y="152" class="en" text-anchor="middle">Common core, one session</text><text x="180" y="172" class="fr" text-anchor="middle">Tronc commun, une séance</text>
-<text x="560" y="52" class="en" text-anchor="start">Engineering, five sessions</text><text x="560" y="72" class="fr" text-anchor="start">Parcours Génie logiciel, cinq séances</text>
-<text x="560" y="152" class="en" text-anchor="start">Product and experience, three sessions</text><text x="560" y="172" class="fr" text-anchor="start">Parcours Produit et expérience, trois séances</text>
-<text x="560" y="252" class="en" text-anchor="start">Business and people, three sessions</text><text x="560" y="272" class="fr" text-anchor="start">Parcours Gestion et affaires, trois séances</text>
-<text x="505" y="350" class="en" text-anchor="middle">Overlays, across every track</text><text x="505" y="370" class="fr" text-anchor="middle">Modules transversaux, dans chaque parcours</text>
+<text x="180" y="152" font-family="Atkinson Hyperlegible Next, Atkinson Hyperlegible, Verdana, Arial, sans-serif" font-size="16" font-weight="600" fill="#15181D" text-anchor="middle">Common core, one session</text><text x="180" y="172" font-family="Atkinson Hyperlegible Next, Atkinson Hyperlegible, Verdana, Arial, sans-serif" font-size="15" font-weight="400" fill="#4D5562" text-anchor="middle">Tronc commun, une séance</text>
+<text x="560" y="52" font-family="Atkinson Hyperlegible Next, Atkinson Hyperlegible, Verdana, Arial, sans-serif" font-size="16" font-weight="600" fill="#15181D" text-anchor="start">Engineering, five sessions</text><text x="560" y="72" font-family="Atkinson Hyperlegible Next, Atkinson Hyperlegible, Verdana, Arial, sans-serif" font-size="15" font-weight="400" fill="#4D5562" text-anchor="start">Parcours Génie logiciel, cinq séances</text>
+<text x="560" y="152" font-family="Atkinson Hyperlegible Next, Atkinson Hyperlegible, Verdana, Arial, sans-serif" font-size="16" font-weight="600" fill="#15181D" text-anchor="start">Product and experience, three sessions</text><text x="560" y="172" font-family="Atkinson Hyperlegible Next, Atkinson Hyperlegible, Verdana, Arial, sans-serif" font-size="15" font-weight="400" fill="#4D5562" text-anchor="start">Parcours Produit et expérience, trois séances</text>
+<text x="560" y="252" font-family="Atkinson Hyperlegible Next, Atkinson Hyperlegible, Verdana, Arial, sans-serif" font-size="16" font-weight="600" fill="#15181D" text-anchor="start">Business and people, three sessions</text><text x="560" y="272" font-family="Atkinson Hyperlegible Next, Atkinson Hyperlegible, Verdana, Arial, sans-serif" font-size="15" font-weight="400" fill="#4D5562" text-anchor="start">Parcours Gestion et affaires, trois séances</text>
+<text x="505" y="350" font-family="Atkinson Hyperlegible Next, Atkinson Hyperlegible, Verdana, Arial, sans-serif" font-size="16" font-weight="600" fill="#15181D" text-anchor="middle">Overlays, across every track</text><text x="505" y="370" font-family="Atkinson Hyperlegible Next, Atkinson Hyperlegible, Verdana, Arial, sans-serif" font-size="15" font-weight="400" fill="#4D5562" text-anchor="middle">Modules transversaux, dans chaque parcours</text>
 </svg>

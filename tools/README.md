@@ -33,4 +33,9 @@ python3 tools/render_preview.py assets/readme/program-map-light.svg
 
 ## Builders
 
-The deck and textbook builders, and the manifest formats they read, are added in initialization sub-batch 3c-2, together with the `publish` skill.
+| Script | What it builds | Run with |
+|---|---|---|
+| `build_deck.py` | A PowerPoint deck from `decks/SESSION.toml`: title, section, concept, example, checkpoint, exercise and recap slides, a stop map, speaker notes. Fonts follow `DESIGN.md` section 3.2 | `.venv/bin/python tools/build_deck.py decks/SESSION.toml [--theme dark]` |
+| `build_book.py` | A PDF textbook (PDF/UA-1) from `books/BOOK/book.toml`: cover, table of contents, chapter openers, embedded fonts, learner text only | `.venv/bin/python tools/build_book.py books/BOOK/book.toml` |
+
+The manifest formats and the full procedure are in the `publish` skill (`.claude/skills/publish/SKILL.md`).

@@ -570,3 +570,10 @@ At lock, this file moves to `.ai/project/decisions/0001-initialization-plan.md` 
 - 2026-11-10 Sub-batch 3a committed as `b62321f`. The author approved three follow-ups, made in 3b: the notes budget counts talk minutes only (`AGENTS.md`, `DESIGN.md` §7, `spec/deliverables.md`); the template's timing table gains an opening row; `.claude/skills/.gitkeep` is removed. Sub-batch 3b (installation by the author, then verification) started.
 - 2026-11-10 The author installed the 3b files. The agent verified them: the skill files are byte-identical to the reviewed copies, the font blobs match upstream, the venv has the pinned versions, and the glyph coverage is recorded in `DESIGN.md` §3.1. `THIRD_PARTY_NOTICES.md` lists every new third-party file with its SHA-256.
 - 2026-11-10 Sub-batch 3b committed as `c7165a0`. Sub-batch 3c is split in two for review. 3c-1 (the checkers and the preview renderer in `tools/`) started; 3c-2 (builders and the `publish` skill) follows.
+- 2026-11-10 3c-1 committed as `de9f90f`. 3c-2 written, but not yet reported or reviewed:
+  - the README map SVGs now use font attributes;
+  - `tools/build_deck.py` and `tools/build_book.py` built and tried on the off-topic trial, with renders inspected and defects fixed (shadows, label alignment, title spacing, diagram resolution);
+  - the font test: LibreOffice ignores fonts embedded in a PPTX, so decks use Arial (Liberation Sans), recorded in `DESIGN.md` §3.2;
+  - the `publish` skill and the tools README added.
+  - Remaining for 3c-2: final checks (compile, neutrality, `git status`), the state file, and the batch report. Then 3d (skills register, `CLAUDE.md` skills section, notices), then Phase 4.
+- 2026-11-10 3c-2 final checks done; the Liberation Sans question is partly confirmed (`DESIGN.md` §3.2). Batch report given; waiting for the author's commit.

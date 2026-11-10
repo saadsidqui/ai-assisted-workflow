@@ -118,9 +118,11 @@ The track hues are derived from the Okabe–Ito colour-blind-safe set and darken
 ### 3.2 Surviving on a machine where nothing can be installed
 
 - **PDF textbooks and handouts:** the fonts are embedded in every PDF.
-- **Decks:** a deck must open with its intended metrics in LibreOffice (the main target) and in PowerPoint, on a machine where no font can be installed. Two candidates, settled by a test in initialization, Phase 3:
-  1. Atkinson Hyperlegible Next embedded in the `.pptx`. Adopted only if both applications honour the embedded font.
-  2. A metric-compatible pair: the deck names Arial, which LibreOffice renders with Liberation Sans. Adopted if the embedding test fails. It must be confirmed that Liberation Sans ships with LibreOffice installs.
+- **Decks:** a deck must open with its intended metrics in LibreOffice (the main target) and in PowerPoint, on a machine where no font can be installed.
+  - Tested on 2026-11-10 (initialization, Phase 3): LibreOffice 24.2 ignored fonts embedded in the `.pptx` and substituted another face.
+  - So decks name **Arial** (mono: Courier New). LibreOffice renders them with the metric-compatible Liberation Sans (and Liberation Mono), PowerPoint with Arial.
+  - Atkinson Hyperlegible remains the face of PDFs, handouts, diagrams and README images. `tools/build_deck.py --fonts atkinson` exists only for machines where it is installed.
+  - Partly confirmed: the Document Foundation wiki lists Liberation Sans among the fonts LibreOffice bundles on Windows and macOS (https://wiki.documentfoundation.org/Fonts/ko, seen in a search on 2026-11-10). The list is not dated to a current release, so check it on a current install before the first delivery. Where it is missing, LibreOffice substitutes another sans-serif face.
 - **README images:** the SVG text uses the stack `"Atkinson Hyperlegible Next", "Atkinson Hyperlegible", Verdana, Arial, sans-serif`. Layouts keep at least 20 % horizontal slack so that a substituted font still fits.
 
 ### 3.3 Sizes
