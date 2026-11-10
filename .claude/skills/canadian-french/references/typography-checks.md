@@ -16,14 +16,14 @@ Mechanical checks for French text, each tied to a rule in `DESIGN.md` section 9.
 | F8 | Colon time in running text | `\b\d{1,2}:\d{2}\b` | `9NBh`, `14NBhNB30` | Time, running text (tables may keep it) |
 | F9 | Hour symbol glued or with plain spaces | `\b\d{1,2}h\d{0,2}\b` and `\d h\b` | NB on both sides of h | Time, running text |
 | F10 | Minutes under ten without a zero | `\bh\u00a0?[1-9]\b` | `8NBhNB05` | Time, running text |
-| F11 | Decimal point | `\b\d+\.\d+\b` | Comma | Decimal sign (version numbers in re-verify lists excepted) |
+| F11 | Decimal point | `(?<![A-Z]\s)\b\d+\.\d+\b` | Comma | Decimal sign (a version after an all-caps name such as CC BY 4.0 is a name; version numbers in re-verify lists excepted) |
 | F12 | Comma as thousands separator | `\b\d{1,3},\d{3}\b` | NB groups | Large numbers (check: may be a decimal) |
 | F13 | Five or more digits not grouped | `\b\d{5,}\b` | NB every three digits from the right | Large numbers (years, codes and identifiers excepted) |
 | F14 | Capitalized month or day mid-sentence | `(?<=[a-zà-ÿ0-9,] )(Janvier|Février|Mars|Avril|Mai|Juin|Juillet|Août|Septembre|Octobre|Novembre|Décembre|Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche)\b` | Lowercase | Dates (author-confirmed convention) |
 | F15 | Heading ends with a period or colon | `^#{1,6} .*[.:]\s*$` | Remove it | Headings |
 | F16 | Title Case heading | heading line with two or more capitalized words after the first, other than proper nouns or acronyms | Sentence case | Headings (author-confirmed convention) |
 | F17 | Em dash or en dash in running text | `\u2014` and ` \u2013 ` outside schedules | Comma, parentheses or colon | Dash choice |
-| F18 | Abbreviated doublet with a period or point médian | `\w[.\u00b7]\w+([.\u00b7]s)?\b` (for example participant\u00b7e\u00b7s) | Full doublet or a neutral designation | Inclusive writing |
+| F18 | Abbreviated doublet with a period or point médian | `[a-zà-ÿ][.\u00b7](?:e|es|ne|nes|rice|rices|euse|euses)\b` and `[a-zà-ÿ][.\u00b7]e[.\u00b7]s\b` (for example participant\u00b7e\u00b7s, étudiant.e) | Full doublet or a neutral designation | Inclusive writing |
 | F19 | Ordinal written with superscript markup, or "1st" | `1<sup>er</sup>` or `\b1st\b` | `1er` | Dates |
 | F20 | Narrow non-breaking space used | `\u202f` | NB | This project uses NB only |
 | F21 | Numeric date in running text | `\b\d{4}-\d{2}-\d{2}\b` outside tables and front matter | le 10 novembre 2026 | Dates, running text |

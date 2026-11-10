@@ -27,6 +27,7 @@ Every visual applies `DESIGN.md`. The direction is Wayfinding: the program drawn
    - Slides and pages need the light theme; the dark deck theme is optional.
 4. **Draw** as SVG in `assets/diagrams/<module ID>-<slug>.svg`, or `assets/readme/` for README images.
    - Text stays text, in sentence case, using the font stack from `DESIGN.md` section 3.2.
+   - Set fonts with the attributes `font-family`, `font-size` and `font-weight` on the text elements, not with the CSS `font:` shorthand. LibreOffice's SVG import ignores the shorthand, so previews and builds would use the wrong face.
    - Leave at least 20 % horizontal slack, so a substituted font still fits.
    - Add `<title>`, `<desc>`, `role="img"` and `aria-labelledby`.
 5. **Compute contrast** for every pair of text and background, and of mark and background, as described in `render.md`. Targets: text ≥ 7:1 for body, ≥ 4.5:1 for other text, ≥ 3:1 for meaningful marks.
