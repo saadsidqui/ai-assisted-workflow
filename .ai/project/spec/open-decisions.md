@@ -94,7 +94,7 @@ D.1 to D.3 and D.5 to D.8 are covered by `AGENTS.md` and the curriculum conventi
 
 - **Proposal:** define the invented client, project, stages and artifacts in an interview with the author, using the `grilling` skill, before the core lessons.
 - **Settle by:** build order, step 3.
-- **Status:** open.
+- **Status:** settled on 2026-11-10 (decision 0016).
 
 ### OD-12 · A mark for the program
 

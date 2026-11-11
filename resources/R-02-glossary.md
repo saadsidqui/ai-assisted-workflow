@@ -4,10 +4,10 @@ title: Glossaire
 card: .ai/project/spec/curriculum/resources/R-02-glossary-seed.md
 status: review
 last_verified: "2026-11-10"
-native_review: pending
+native_review: accepted
 ---
 
-<!-- Policy and author-settled terms: .ai/project/decisions/0014-terminology-policy.md and 0015-glossary-terms-settled-by-the-author.md. Every GDT link was opened on 2026-11-10. -->
+<!-- Policy and author-settled terms: .ai/project/decisions/0014-terminology-policy.md, 0015-glossary-terms-settled-by-the-author.md and 0016-fictional-engagement.md. Names of the program's parts: 0012-program-names.md. Every GDT link was opened on 2026-11-10. -->
 
 # Glossaire
 
@@ -22,6 +22,18 @@ Ce glossaire fixe les termes du programme « Travailler avec l’IA ». Chaque
 5. Un terme, une seule forme. Quand le GDT privilégie plusieurs termes, le glossaire en retient un.
 
 Chaque entrée renvoie à la fiche du GDT consultée, avec sa date de mise à jour et la date de consultation. La mention « aucune fiche du GDT » indique qu’une recherche faite à la date donnée n’a trouvé aucune fiche pour cette notion.
+
+## Noms des parties du programme
+
+Les parties du programme portent ces noms dans tous les documents en français.
+
+| Anglais | Français |
+|---|---|
+| Common core | Tronc commun |
+| Engineering track | Parcours Génie logiciel |
+| Product and experience track | Parcours Produit et expérience |
+| Business and people track | Parcours Gestion et affaires |
+| Overlays | Modules transversaux |
 
 ## Termes
 
@@ -152,6 +164,16 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 - **Introduit dans :** E-02.
 - **Emploi :** le GDT donne aussi l’anglais *merge request*.
 
+### demande d’offres de services
+
+- **Anglais :** *request for proposals* (RFP).
+- **Définition :** demande par laquelle un client invite quelques firmes à lui soumettre une offre de services pour un contrat.
+- **Exemple :** la demande d’offres de services de Location Pavois énumère six exigences et fixe la date limite des réponses.
+- **Règle :** 2.
+- **Source :** aucune fiche de l’OQLF pour cette notion (recherche du 10 novembre 2026). Le GDT reproduit deux fiches sans terme privilégié : [« demande d’offres de services »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/507660/demande-doffres-de-services) (ICCA, 2006) et [« demande de propositions »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26511021/demande-de-propositions) (FMI, 2011).
+- **Introduit dans :** B-04.
+- **Emploi :** la réponse est une « offre de services » (voir ce terme). Au GDT, « appel d’offres » rend *call for tenders*, une autre procédure.
+
 ### dépôt
 
 - **Anglais :** *repository*, *repo*.
@@ -180,6 +202,16 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 - **Source :** GDT, fiche [« document d’accompagnement »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26559981/document-daccompagnement) (FranceTerme, 2021), consultée le 10 novembre 2026.
 - **Introduit dans :** C-04.
 - **Emploi :** le GDT privilégie aussi « document d’appui ». Le glossaire retient « document d’accompagnement ». Le mot « fiche » désigne seulement une fiche de module ou une fiche du GDT.
+
+### document de passation
+
+- **Anglais :** *handover document*.
+- **Définition :** document qui transmet un système livré à l’équipe qui l’exploitera : son fonctionnement, son administration et ce qu’il faut surveiller.
+- **Exemple :** à la livraison, le chargé de projet remet le document de passation à l’équipe informatique du client.
+- **Règle :** 2.
+- **Source :** aucune fiche du GDT pour cette notion (recherche du 10 novembre 2026).
+- **Introduit dans :** X-03.
+- **Emploi :** de la même famille que « passation ». La note de passation transmet le travail d’une session à la suivante; le document de passation transmet un système à l’équipe du client.
 
 ### énoncé de projet
 
@@ -372,6 +404,16 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 - **Source :** GDT, fiche [« intelligence artificielle multimodale »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26574703/intelligence-artificielle-multimodale), mise à jour en 2025, consultée le 10 novembre 2026.
 - **Introduit dans :** C-01.
 
+### notes de mise à jour
+
+- **Anglais :** *release notes*.
+- **Définition :** document qui accompagne une nouvelle version d’un logiciel et décrit ses nouvelles fonctions, ses corrections et ses limites.
+- **Exemple :** l’agent rédige les notes de mise à jour à partir des demandes de fusion acceptées, puis une personne les relit.
+- **Règle :** 1.
+- **Source :** GDT, fiche [« notes de mise à jour »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8871935/notes-de-mise-a-jour), mise à jour en 2001, consultée le 10 novembre 2026.
+- **Introduit dans :** E-08.
+- **Emploi :** toujours au pluriel. Le GDT donne aussi « notes complémentaires » et « notes techniques », mais les juge trop génériques.
+
 ### obligation de rendre compte
 
 - **Anglais :** *accountability*.
@@ -381,6 +423,26 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 - **Source :** GDT, fiche [« obligation de rendre compte »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26573352/obligation-de-rendre-compte) (FranceTerme, 2023), consultée le 10 novembre 2026.
 - **Introduit dans :** C-06.
 - **Emploi :** selon la fiche [« responsabilisation »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8360360/responsabilisation) (mise à jour en 2008), « responsabilité » désigne l’obligation d’agir, une autre notion. L’adjectif « responsable » reste d’usage courant.
+
+### occasion d’affaires
+
+- **Anglais :** *business opportunity*; l’étape *opportunity* de la carte d’un mandat.
+- **Définition :** circonstance qui se présente à un moment donné, pour un temps limité, et qui permet de conclure une affaire.
+- **Exemple :** la demande d’offres de services de Location Pavois est une occasion d’affaires pour votre équipe.
+- **Règle :** 1.
+- **Source :** GDT, fiche [« occasion d’affaires »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8369702/occasion-daffaires), mise à jour en 2010, consultée le 10 novembre 2026.
+- **Introduit dans :** X-03.
+- **Emploi :** première étape de la carte d’un mandat. « Opportunité » ne s’emploie pas en ce sens.
+
+### offre de services
+
+- **Anglais :** *proposal*.
+- **Définition :** document qui décrit, pour un client potentiel, les services qu’une entreprise propose, avec les délais et les coûts.
+- **Exemple :** l’offre de services de votre équipe couvre la phase 1 et reporte le paiement en ligne à une phase 2.
+- **Règle :** 1.
+- **Source :** GDT, fiche [« offre de service »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8377628/offre-de-service), mise à jour en 2006, consultée le 10 novembre 2026.
+- **Introduit dans :** B-04 et X-03.
+- **Emploi :** le GDT privilégie aussi « offre de service », au singulier. Le glossaire retient « offre de services ».
 
 ### outil
 
@@ -470,6 +532,15 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 - **Introduit dans :** C-04.
 - **Emploi :** le GDT privilégie aussi « invite ». Le glossaire retient « requête », qui forme aussi « rédaction de requêtes » et « infiltration de requête ».
 
+### réunion de démarrage
+
+- **Anglais :** *kickoff meeting*; l’étape *kickoff and setup* se dit « démarrage et mise en place ».
+- **Définition :** réunion de travail des parties concernées qui marque le début effectif d’un projet.
+- **Exemple :** à la réunion de démarrage, la directrice générale du client fixe la date du projet pilote.
+- **Règle :** 1.
+- **Source :** GDT, fiche [« réunion de démarrage »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26539018/reunion-de-demarrage) (FranceTerme, 2009), consultée le 10 novembre 2026. La fiche de l’OQLF [« réunion de démarrage »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/17034470/reunion-de-demarrage), mise à jour en 1988, privilégie aussi ce terme en publicité.
+- **Introduit dans :** X-03.
+
 ### révision humaine
 
 - **Anglais :** *human review*.
@@ -536,6 +607,16 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 - **Source :** GDT, fiche [« structuration contextuelle »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26584295/structuration-contextuelle), mise à jour en 2025, consultée le 10 novembre 2026.
 - **Introduit dans :** E-04.
 
+### synthèse de découverte
+
+- **Anglais :** *discovery brief*.
+- **Définition :** document qui résume ce que l’équipe a appris à l’étape de la découverte : les besoins, les contraintes, les contradictions et les questions ouvertes.
+- **Exemple :** chaque récit utilisateur de l’atelier renvoie à un besoin de la synthèse de découverte.
+- **Règle :** 2.
+- **Source :** aucune fiche du GDT pour cette notion ni pour l’étape *discovery* (recherche du 10 novembre 2026).
+- **Introduit dans :** P-02.
+- **Emploi :** l’étape *discovery* se dit « découverte ». À distinguer de l’« énoncé de projet », qui présente le projet lui-même.
+
 ## Termes écartés
 
 | Terme écarté | Employer | Raison |
@@ -577,6 +658,14 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 | fiche, pour *handout* | document d’accompagnement | Terme privilégié du GDT. « Fiche » désigne une fiche de module ou une fiche du GDT. |
 | document d’appui | document d’accompagnement | Un seul terme. Le GDT privilégie les deux. |
 | mission, pour *engagement* | mandat | Un seul terme. |
+| appel d’offres, pour *request for proposals* | demande d’offres de services | Au GDT, « appel d’offres » rend *call for tenders*. |
+| appel de propositions | demande d’offres de services | Au GDT, ce terme rend *call for proposals*. |
+| demande de propositions | demande d’offres de services | Un seul terme. |
+| proposition, pour *proposal* | offre de services | Terme privilégié du GDT. |
+| opportunité, pour *opportunity* | occasion d’affaires | Emploi déconseillé par l’OQLF en ce sens. |
+| *kickoff*, réunion de lancement | réunion de démarrage | Terme recommandé par FranceTerme et privilégié par l’OQLF. |
+| notes de version, *release notes* hors première mention | notes de mise à jour | Terme privilégié du GDT. |
+| note de passation, pour *handover document* | document de passation | La note de passation transmet le travail d’une session à la suivante. |
 
 ## Index anglais-français
 
@@ -594,6 +683,7 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 | assistant | assistant |
 | branch | branche |
 | brief | consigne |
+| business opportunity | occasion d’affaires |
 | code review | revue de code |
 | commit | *commit* (terme anglais conservé) |
 | connector | connecteur |
@@ -602,6 +692,7 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 | data classification | classification de sécurité |
 | deny | refuser |
 | diff | *diff* (terme anglais conservé) |
+| discovery brief | synthèse de découverte |
 | engagement | mandat |
 | fine-tuning | *fine-tuning* (terme anglais conservé) |
 | gate | point d’approbation |
@@ -609,15 +700,18 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 | hallucination | hallucination |
 | handoff | passation |
 | handout | document d’accompagnement |
+| handover document | document de passation |
 | hook | *hook* (terme anglais conservé) |
 | human review | révision humaine |
 | instruction file | fichier d’instructions |
 | iteration | itération |
+| kickoff meeting | réunion de démarrage |
 | knowledge cutoff | date limite des connaissances |
 | large language model (LLM) | grand modèle de langage |
 | model | modèle |
 | multimodal | multimodal |
 | open-weight model | modèle à poids ouverts |
+| opportunity | occasion d’affaires |
 | permission | autorisation |
 | personal information | renseignements personnels |
 | project brief | énoncé de projet |
@@ -625,11 +719,14 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 | prompt engineering | rédactique |
 | prompt injection | infiltration de requête |
 | prompting | rédaction de requêtes |
+| proposal | offre de services |
 | pull request (PR) | demande de fusion |
 | push | *push* (terme anglais conservé) |
 | RAG | génération augmentée par récupération |
+| release notes | notes de mise à jour |
 | repo | dépôt |
 | repository | dépôt |
+| request for proposals (RFP) | demande d’offres de services |
 | retrieval-augmented generation | génération augmentée par récupération |
 | sandbox | bac à sable |
 | secret | secret |
