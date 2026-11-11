@@ -118,7 +118,7 @@ Exercice, avec son point de départ préparé :
 
 - B-04 : la demande d’offres de services.
 
-C-01 et C-02 s’en servent aussi comme exemple : Isabelle lit la demande avec l’assistant.
+C-01 et C-02 s’en servent aussi comme exemple : Isabelle lit la demande avec l’assistant. C-03 en tire deux tâches de son point de contrôle : la liste des exigences, et la décision d’y répondre.
 
 ### 2. Découverte
 
@@ -137,6 +137,8 @@ Exercices, avec leur point de départ préparé :
 - P-01 : les notes des trois entrevues;
 - C-06 : un résumé de la réunion rédigé par un assistant, avec deux erreurs, et les notes d’origine.
 
+C-03 s’en sert aussi comme exemple : Léa demande à l’assistant de mettre au propre ses notes d’entrevue.
+
 ### 3. Offre de services
 
 Avant de rédiger l’offre, Isabelle compare trois options : le développement sur mesure et deux logiciels de location inventés pour l’exercice.
@@ -150,6 +152,8 @@ Exercices, avec leur point de départ préparé :
 - trousse C de la séance commune : les notes d’Isabelle après l’appel du 3 mars, et le courriel du 27 février;
 - B-01 : les mêmes documents, plus détaillés;
 - B-02 : la description des trois options.
+
+C-03 s’en sert aussi comme exemple : Isabelle demande à l’assistant de comparer les trois options, sans lui demander de choisir.
 
 ### 4. Démarrage et mise en place
 
@@ -166,6 +170,7 @@ Emplois de cette étape :
 
 - C-01 : la date d’ouverture, d’abord demandée sans document, puis avec l’offre de services et le compte rendu;
 - C-02 : la première règle de Kevin, pour savoir quelle application est approuvée pour les documents du client;
+- C-03 : le résumé pour le personnel, comme tâche jaune de son point de contrôle;
 - C-04 et la séance commune : le résumé pour le personnel (voir « L’exemple de la séance commune »);
 - X-01 : ses exemples de premier jour chez un client.
 
@@ -192,6 +197,8 @@ Exercices, avec leur point de départ préparé :
 - E-01 : le module qui calcule la disponibilité;
 - E-06 : une question de conception sur le calcul de la disponibilité;
 - E-07 : un signalement qui contient une instruction cachée.
+
+C-03 s’en sert aussi comme exemple : Julien confie à un agent une modification du code du portail, que Kevin relit avant de l’accepter.
 
 ### 7. Vérification
 

@@ -1,11 +1,11 @@
-# Handoff: R-01 in the build order, and the C-02 lesson
+# Handoff: R-01 in the build order, and the C-02 and C-03 lessons
 
 - Date: 2026-11-11
 - Stage: build
 
 ## Goal
 
-Close the open questions of the previous session, then write C-02 (the landscape snapshot) after settling OD-10 and the points the card leaves open.
+Close the open questions of the previous session, then write C-02 (the landscape snapshot) after settling OD-10 and the points the card leaves open, and C-03 (task fit and limits).
 
 ## Done
 
@@ -25,6 +25,15 @@ Close the open questions of the previous session, then write C-02 (the landscape
   - The Microsoft 365 Copilot product page timed out; the Microsoft Learn pages were used instead.
 - **After batch 4d:** the author accepted decision 0018, confirmed the title « Ce qui existe aujourd’hui », approved the OD-10 status change, and kept « interface de programmation d’application (API) » as written.
 
+- **C-03 settled:** the author approved two points "as recommended" on 2026-11-11, recorded in decision 0019 (`proposed`):
+  - a core practice of one or two minutes runs in the room; a longer one goes to the textbook;
+  - C-03's green task is kept for after the session or the track workshop, and S-02 does not change.
+- **C-03 written,** `lessons/core/C-03-task-fit-and-limits.md`, titled « Où l’assistant aide, et où il échoue » (title not yet confirmed):
+  - 9 minutes (6 + 3 for checkpoint 2) and 8 slides; 1 minute of silent practice;
+  - units: three zones, five questions, help is not decide;
+  - the checkpoint tasks come from the brief: the requirements list (green), the decision to respond (red), the staff summary (yellow, meant to divide the room);
+  - the examples avoid the planted traps of packs A, B and C (availability code, the deadline conflict, a delivery date for Hélène).
+
 ## Files changed
 
 Batch 4c (R-01 in the build order):
@@ -43,6 +52,13 @@ Batch 4e (follow-ups to C-02):
 
 - `lessons/core/C-02-landscape-snapshot.md`: ChatGPT and Codex added to the examples and to the re-verify list; the OpenAI note removed. The GitHub Copilot agent mode stays mentioned in the text, but leaves the list of agent examples.
 - `.ai/project/knowledge/vendor-pages.md`: new note on which vendor pages can be read automatically.
+- `.ai/project/state.md`, this handoff.
+
+Batch 4f (C-03):
+
+- `lessons/core/C-03-task-fit-and-limits.md`: new, `status: review`, `native_review: pending`.
+- `.ai/project/decisions/0019-core-practice-in-the-room.md`: new, proposed.
+- `resources/fictional-engagement.md`: C-03 listed among the uses of stages 1, 2, 3, 4 and 6.
 - `.ai/project/state.md`, this handoff.
 
 Locked files changed (stage `build` only), each with the author's approval quoted and dated:
@@ -69,10 +85,17 @@ Locked files changed (stage `build` only), each with the author's approval quote
   - a recommended topic (« l’abonnement compte autant que le produit ») removed from the taught text; it stays in « Pour aller plus loin ».
   - The visual pass waits for the first deck build.
 
+- **`tools/check_lesson.py` on C-03:** every check passes. Spoken words: 551 for 5 talk minutes (range 468 to 632). The timing table, timing marks and minutes all total 9.
+- **Slide word limits on C-03:** every slide within `DESIGN.md` 4.2 (concept slides at most 25 words; the checkpoint question 6 words, with three short tasks under it, as the card puts the tasks on screen).
+- **`tools/check_french.py`:** C-03 0 hits; the brief keeps its known F16 hit.
+- **`canadian-french` on C-03:** glossary forms at first mention (assistant virtuel, dépôt, révision humaine, revue de code, demande de fusion, IA spelled out); « fait la leçon », which means to lecture someone, replaced.
+- **`slop-check` on C-03 (text):** one aphorism-like sentence rewritten; no clusters found. The visual pass waits for the first deck build.
+
 ## Open questions
 
-None.
+1. Accept decision 0019.
+2. Confirm the C-03 title « Où l’assistant aide, et où il échoue ».
 
 ## Next step
 
-Start the session routine. Then C-03 (task fit and limits) with `lesson-writing`: its question is checkpoint 2 of the common session, which closes segment 2 after C-02. Show the plan before writing.
+Start the session routine and ask the open questions above. Then C-04 (the working loop and prompting) with `lesson-writing`: it carries the running example (Marc-André's staff summary) and checkpoint 3. Show the plan before writing.
