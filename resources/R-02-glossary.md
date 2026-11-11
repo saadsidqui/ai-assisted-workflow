@@ -2,17 +2,12 @@
 id: R-02
 title: Glossaire
 card: .ai/project/spec/curriculum/resources/R-02-glossary-seed.md
-status: draft
+status: review
 last_verified: "2026-11-10"
 native_review: pending
 ---
 
-<!-- GUIDE
-Draft. Batch 2a holds the policy, the terms settled in decision 0014 and the first excluded terms.
-Batch 2b adds the remaining terms of the R-02 card, each checked in the GDT.
-Batch 2c adds a definition and a workplace example to every entry, and an English-to-French index.
-Policy source: .ai/project/decisions/0014-terminology-policy.md.
--->
+<!-- Policy and author-settled terms: .ai/project/decisions/0014-terminology-policy.md and 0015-glossary-terms-settled-by-the-author.md. Every GDT link was opened on 2026-11-10. -->
 
 # Glossaire
 
@@ -36,7 +31,7 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 
 - **Anglais :** *agent*.
 - **Définition :** modèle qui travaille en boucle avec des outils pour atteindre un objectif : il planifie, agit, vérifie et recommence.
-- **Exemple :** l’agent lit les trois rapports du dossier, compare les chiffres et prépare un tableau, puis il vous le soumet avant tout envoi.
+- **Exemple :** l’agent compare les chiffres de trois rapports et prépare un tableau, qu’il vous soumet avant tout envoi.
 - **Règle :** 1.
 - **Source :** GDT, fiche [« agent intelligent »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8394387/agent-intelligent), mise à jour en 2018, consultée le 10 novembre 2026.
 - **Introduit dans :** C-01 et C-08.
@@ -123,7 +118,7 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 
 - **Anglais :** *brief*, au sens de la demande qu’on adresse à l’assistant.
 - **Définition :** demande structurée que vous adressez à l’assistant : l’objectif, le contexte, les contraintes et le résultat attendu.
-- **Exemple :** votre consigne précise le public visé, la longueur maximale et les trois sources à utiliser.
+- **Exemple :** votre consigne précise le public visé et la longueur maximale du texte.
 - **Règle :** 2.
 - **Source :** aucune fiche du GDT pour ce sens (recherche du 10 novembre 2026). La fiche [« énoncé de projet »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8403165/enonce-de-projet) vise le *project brief*, une autre notion.
 - **Introduit dans :** C-04.
@@ -161,7 +156,7 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 
 - **Anglais :** *repository*, *repo*.
 - **Définition :** espace où sont conservés les fichiers d’un projet avec l’historique de leurs versions.
-- **Exemple :** le dépôt contient le code, la documentation et le fichier d’instructions de l’agent.
+- **Exemple :** le dépôt contient le code du projet et le fichier d’instructions de l’agent.
 - **Règle :** 1.
 - **Source :** GDT, fiche [« dépôt de code source »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26584236/depot-de-code-source), mise à jour en 2025, consultée le 10 novembre 2026.
 - **Introduit dans :** E-02.
@@ -286,7 +281,7 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 
 - **Anglais :** *agentic AI*.
 - **Définition :** IA conçue pour poursuivre un objectif de façon autonome : elle planifie, utilise des outils et découpe le travail en sous-tâches.
-- **Exemple :** un service d’IA agentive réserve une salle, invite les personnes et prépare l’ordre du jour, puis attend votre approbation.
+- **Exemple :** un service d’IA agentive réserve une salle et invite les personnes, puis attend votre approbation.
 - **Règle :** 1.
 - **Source :** GDT, fiche [« intelligence artificielle agentive »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26578856/intelligence-artificielle-agentive), mise à jour en 2026, consultée le 10 novembre 2026.
 - **Introduit dans :** C-02.
@@ -334,6 +329,8 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 ### jeton
 
 - **Anglais :** *token*.
+- **Définition :** unité de base que traite le modèle : un mot, une partie de mot ou un signe de ponctuation.
+- **Exemple :** la longueur d’un document se mesure en jetons, et chaque jeton compte dans la limite du modèle comme dans la facture.
 - **Règle :** 1.
 - **Source :** GDT, fiche [« jeton »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26584108/jeton), mise à jour en 2025, consultée le 10 novembre 2026.
 - **Introduit dans :** C-01.
@@ -341,6 +338,8 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 ### mandat
 
 - **Anglais :** *engagement*, au sens du travail confié par un client.
+- **Définition :** travail confié par un client à une équipe, avec un objectif et une durée définis.
+- **Exemple :** au début du mandat, l’équipe vérifie quelles applications d’IA le client autorise.
 - **Règle :** 2.
 - **Source :** aucune fiche de l’OQLF pour ce sens (recherche du 10 novembre 2026). Les fiches [« lettre de mission »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/502256/lettre-de-mission) et [« mission de conseil en gestion »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/506006/mission-de-conseil-en-gestion) viennent d’un dictionnaire de comptabilité (ICCA, 2006), sans terme privilégié.
 - **Introduit dans :** X-03.
@@ -348,6 +347,8 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 ### modèle
 
 - **Anglais :** *model*.
+- **Définition :** moteur de l’application : un programme entraîné sur des données, qui produit une réponse à partir d’une requête.
+- **Exemple :** deux applications peuvent utiliser le même modèle et donner pourtant des résultats différents.
 - **Règle :** 1.
 - **Source :** GDT, fiche [« modèle d’intelligence artificielle »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26574363/modele-dintelligence-artificielle), mise à jour en 2024, consultée le 10 novembre 2026.
 - **Introduit dans :** C-01.
@@ -356,6 +357,8 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 ### modèle à poids ouverts
 
 - **Anglais :** *open-weight model*.
+- **Définition :** modèle dont les paramètres sont publiés, si bien qu’on peut l’exécuter sur ses propres serveurs.
+- **Exemple :** pour garder les données sur place, l’équipe évalue un modèle à poids ouverts installé sur un serveur interne.
 - **Règle :** 2.
 - **Source :** aucune fiche du GDT pour ce sens (recherche du 10 novembre 2026).
 - **Introduit dans :** C-02 (sujet facultatif).
@@ -363,6 +366,8 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 ### multimodal
 
 - **Anglais :** *multimodal*.
+- **Définition :** qualifie un modèle qui traite plusieurs types de données à la fois, comme du texte et des images.
+- **Exemple :** vous joignez la photo d’un tableau blanc, et le modèle multimodal en tire une liste de tâches.
 - **Règle :** 1.
 - **Source :** GDT, fiche [« intelligence artificielle multimodale »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26574703/intelligence-artificielle-multimodale), mise à jour en 2025, consultée le 10 novembre 2026.
 - **Introduit dans :** C-01.
@@ -370,6 +375,8 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 ### obligation de rendre compte
 
 - **Anglais :** *accountability*.
+- **Définition :** devoir de répondre d’un résultat et des moyens choisis pour l’obtenir, même quand l’IA a fait une partie du travail.
+- **Exemple :** la personne qui envoie le rapport en a l’obligation de rendre compte, peu importe la façon dont il a été rédigé.
 - **Règle :** 1.
 - **Source :** GDT, fiche [« obligation de rendre compte »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26573352/obligation-de-rendre-compte) (FranceTerme, 2023), consultée le 10 novembre 2026.
 - **Introduit dans :** C-06.
@@ -378,6 +385,8 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 ### outil
 
 - **Anglais :** *tool*, ce que l’application laisse le modèle utiliser, comme la recherche Web.
+- **Définition :** fonction que l’application laisse le modèle utiliser, comme la recherche Web, la lecture de fichiers ou l’exécution de code.
+- **Exemple :** grâce à l’outil de recherche Web, l’assistant cite des pages publiées après sa date limite des connaissances.
 - **Règle :** 2.
 - **Source :** aucune fiche du GDT pour ce sens (recherche du 10 novembre 2026). La fiche [« outil d’intelligence artificielle »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26574413/outil-dintelligence-artificielle) désigne une application (voir ce terme).
 - **Introduit dans :** C-01.
@@ -385,6 +394,8 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 ### passation
 
 - **Anglais :** *handoff*.
+- **Définition :** transmission écrite du travail en cours à la personne ou à la session suivante : ce qui est fait et la prochaine étape.
+- **Exemple :** en fin de journée, l’agent rédige une note de passation que la session du lendemain lit en premier.
 - **Règle :** 2.
 - **Source :** aucune fiche du GDT pour ce sens (recherche du 10 novembre 2026).
 - **Introduit dans :** E-03.6.
@@ -392,6 +403,8 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 ### point d’approbation
 
 - **Anglais :** *gate*, *approval gate*.
+- **Définition :** étape où une personne doit approuver explicitement un résultat avant une action externe, irréversible ou lourde de conséquences.
+- **Exemple :** l’agent prépare le courriel au client, mais le point d’approbation exige votre accord avant l’envoi.
 - **Règle :** 2.
 - **Source :** aucune fiche du GDT pour la notion (recherche du 10 novembre 2026).
 - **Introduit dans :** C-06.
@@ -400,6 +413,8 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 ### push
 
 - **Forme retenue :** *push*, en italique à la première mention.
+- **Définition :** envoi des commits locaux vers un dépôt distant, où l’équipe peut les voir.
+- **Exemple :** vous envoyez les commits avec `git push` seulement après avoir lu le *diff*.
 - **Règle :** 4, nom d’une commande de Git (`git push`).
 - **Source :** aucune fiche du GDT pour le sens de la gestion de versions (recherche du 10 novembre 2026).
 - **Introduit dans :** E-02.
@@ -408,6 +423,8 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 ### récit utilisateur
 
 - **Anglais :** *user story*.
+- **Définition :** phrase courte qui décrit un besoin du point de vue de la personne qui utilise le produit.
+- **Exemple :** « En tant que gestionnaire de comptes, je veux exporter mes factures afin de les classer par client. »
 - **Règle :** 1.
 - **Source :** GDT, fiche [« récit utilisateur »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26528979/recit-utilisateur), mise à jour en 2021, consultée le 10 novembre 2026.
 - **Introduit dans :** P-02.
@@ -416,6 +433,8 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 ### rédaction de requêtes
 
 - **Anglais :** *prompting*.
+- **Définition :** action de concevoir et d’envoyer des requêtes à un assistant ou à un agent pour qu’il accomplisse une tâche.
+- **Exemple :** en atelier, vous pratiquez la rédaction de requêtes en comparant deux versions de la même demande.
 - **Règle :** 1.
 - **Source :** GDT, fiche [« rédaction de requêtes »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/10441153/redaction-de-requetes), mise à jour en 2025, consultée le 10 novembre 2026.
 - **Introduit dans :** C-04.
@@ -424,6 +443,8 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 ### rédactique
 
 - **Anglais :** *prompt engineering*.
+- **Définition :** ensemble des techniques qui servent à formuler des requêtes précises pour obtenir de meilleurs résultats.
+- **Exemple :** l’équipe a réuni ses techniques de rédactique dans une page de conseils partagée.
 - **Règle :** 1.
 - **Source :** GDT, fiche [« rédactique »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26571214/redactique), mise à jour en 2023, consultée le 10 novembre 2026.
 - **Introduit dans :** C-04.
@@ -432,6 +453,8 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 ### renseignements personnels
 
 - **Anglais :** *personal information*.
+- **Définition :** renseignements qui permettent d’identifier une personne physique, directement ou indirectement.
+- **Exemple :** vous retirez les noms et les numéros de téléphone du courriel avant de le coller, car ce sont des renseignements personnels.
 - **Règle :** 1.
 - **Source :** GDT, fiche [« renseignement personnel »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26532706/renseignement-personnel), mise à jour en 2022, consultée le 10 novembre 2026.
 - **Introduit dans :** C-07.
@@ -440,6 +463,8 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 ### requête
 
 - **Anglais :** *prompt*.
+- **Définition :** texte, ou autre donnée, que vous envoyez à un assistant ou à un agent pour lui demander d’accomplir une tâche.
+- **Exemple :** votre requête demande un plan en trois parties, avec une phrase par partie.
 - **Règle :** 1.
 - **Source :** GDT, fiche [« requête »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26571209/requete), mise à jour en 2023, consultée le 10 novembre 2026.
 - **Introduit dans :** C-04.
@@ -448,6 +473,8 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 ### révision humaine
 
 - **Anglais :** *human review*.
+- **Définition :** examen, par une personne compétente, d’un résultat produit par l’IA avant qu’il serve ou soit transmis.
+- **Exemple :** pendant la révision humaine du contrat, vous vérifiez chaque chiffre et chaque clause, pas seulement le style.
 - **Règle :** 2.
 - **Source :** aucune fiche du GDT pour la révision d’un résultat produit par l’IA (recherche du 10 novembre 2026).
 - **Introduit dans :** C-06.
@@ -456,6 +483,8 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 ### revue de code
 
 - **Anglais :** *code review*.
+- **Définition :** examen du code écrit par une autre personne ou par un agent, pour en repérer les erreurs avant sa fusion.
+- **Exemple :** la revue de code porte sur la logique et les tests, même quand le code vient d’un agent.
 - **Règle :** 1.
 - **Source :** GDT, fiche [« revue de code »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26529106/revue-de-code), mise à jour en 2014, consultée le 10 novembre 2026.
 - **Introduit dans :** E-05.
@@ -464,6 +493,8 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 ### secret
 
 - **Anglais :** *secret*, comme une clé d’API ou un mot de passe.
+- **Définition :** information confidentielle qui donne accès à un système, comme une clé d’API ou un mot de passe.
+- **Exemple :** le fichier d’instructions interdit à l’agent de lire le dossier où sont rangés les secrets.
 - **Règle :** 2.
 - **Source :** aucune fiche du GDT pour ce sens (recherche du 10 novembre 2026).
 - **Introduit dans :** E-03.4.
@@ -471,6 +502,8 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 ### skill
 
 - **Forme retenue :** *skill*, en italique à la première mention.
+- **Définition :** ensemble d’instructions et de fichiers qu’un agent charge seulement quand une tâche en a besoin.
+- **Exemple :** le *skill* de vérification du français contient les règles typographiques que l’agent applique avant de remettre un texte.
 - **Règle :** 4, nom d’une fonction de produit.
 - **Source :** sans objet (règle 4).
 - **Introduit dans :** E-03.5.
@@ -478,6 +511,8 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 ### sous-agent
 
 - **Anglais :** *sub-agent*.
+- **Définition :** agent lancé par un autre agent pour accomplir une sous-tâche dans son propre contexte, puis lui rendre le résultat.
+- **Exemple :** l’agent principal confie la recherche de sources à un sous-agent et ne garde que son résumé.
 - **Règle :** 2.
 - **Source :** aucune fiche du GDT pour ce sens (recherche du 10 novembre 2026).
 - **Introduit dans :** E-09.
@@ -485,6 +520,8 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 ### spécification
 
 - **Anglais :** *specification*, *spec*.
+- **Définition :** document qui décrit précisément ce qu’un produit ou un logiciel doit faire et les exigences qu’il doit respecter.
+- **Exemple :** l’agent travaille à partir de la spécification, et chaque critère d’acceptation devient un test.
 - **Règle :** 1.
 - **Source :** GDT, fiche [« spécification logicielle »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/3291766/specification-logicielle), mise à jour en 2021, consultée le 10 novembre 2026.
 - **Introduit dans :** E-04.
@@ -493,6 +530,8 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 ### structuration contextuelle
 
 - **Anglais :** *context engineering*.
+- **Définition :** technique qui consiste à choisir, organiser et hiérarchiser l’information placée dans la fenêtre de contexte du modèle.
+- **Exemple :** par structuration contextuelle, vous ne joignez que les trois fichiers utiles au lieu du dépôt entier.
 - **Règle :** 1.
 - **Source :** GDT, fiche [« structuration contextuelle »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26584295/structuration-contextuelle), mise à jour en 2025, consultée le 10 novembre 2026.
 - **Introduit dans :** E-04.
@@ -538,3 +577,68 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 | fiche, pour *handout* | document d’accompagnement | Terme privilégié du GDT. « Fiche » désigne une fiche de module ou une fiche du GDT. |
 | document d’appui | document d’accompagnement | Un seul terme. Le GDT privilégie les deux. |
 | mission, pour *engagement* | mandat | Un seul terme. |
+
+## Index anglais-français
+
+| Anglais | Français |
+|---|---|
+| acceptance criteria | critères d’acceptation |
+| accountability | obligation de rendre compte |
+| agent | agent |
+| agentic AI | IA agentive |
+| allow | autoriser |
+| application | application |
+| approval gate | point d’approbation |
+| artificial intelligence (AI) | intelligence artificielle |
+| ask | demander |
+| assistant | assistant |
+| branch | branche |
+| brief | consigne |
+| code review | revue de code |
+| commit | *commit* (terme anglais conservé) |
+| connector | connecteur |
+| context engineering | structuration contextuelle |
+| context window | fenêtre de contexte |
+| data classification | classification de sécurité |
+| deny | refuser |
+| diff | *diff* (terme anglais conservé) |
+| engagement | mandat |
+| fine-tuning | *fine-tuning* (terme anglais conservé) |
+| gate | point d’approbation |
+| generative AI | IA générative |
+| hallucination | hallucination |
+| handoff | passation |
+| handout | document d’accompagnement |
+| hook | *hook* (terme anglais conservé) |
+| human review | révision humaine |
+| instruction file | fichier d’instructions |
+| iteration | itération |
+| knowledge cutoff | date limite des connaissances |
+| large language model (LLM) | grand modèle de langage |
+| model | modèle |
+| multimodal | multimodal |
+| open-weight model | modèle à poids ouverts |
+| permission | autorisation |
+| personal information | renseignements personnels |
+| project brief | énoncé de projet |
+| prompt | requête |
+| prompt engineering | rédactique |
+| prompt injection | infiltration de requête |
+| prompting | rédaction de requêtes |
+| pull request (PR) | demande de fusion |
+| push | *push* (terme anglais conservé) |
+| RAG | génération augmentée par récupération |
+| repo | dépôt |
+| repository | dépôt |
+| retrieval-augmented generation | génération augmentée par récupération |
+| sandbox | bac à sable |
+| secret | secret |
+| skill | *skill* (terme anglais conservé) |
+| spec | spécification |
+| specification | spécification |
+| sub-agent | sous-agent |
+| token | jeton |
+| tool | outil |
+| training | entraînement |
+| user story | récit utilisateur |
+| workflow | flux de travaux |

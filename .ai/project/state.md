@@ -6,10 +6,9 @@ Last updated: 2026-11-10
 
 ## Current focus
 
-Build order step 2, the glossary R-02 (`resources/R-02-glossary.md`).
-- **Batch 2a is committed:** OD-06 is settled (decision 0014).
-- **Batch 2b is committed:** every card term is checked in the GDT; the glossary has 53 entries and 37 excluded terms (decisions 0014 and 0015).
-- **Batch 2c, part 1 is written:** a definition and a workplace example for the 31 entries from « agent » to « itération ».
+Build order step 2, the glossary R-02 (`resources/R-02-glossary.md`), is complete pending the author's review.
+- 53 entries, each with its rendering, rule, GDT source and date, definition, workplace example and module; 37 excluded terms; an English-to-French index of 60 rows. Decisions 0014 and 0015.
+- `status: review`; `native_review: pending`. A native speaker should review it before the first delivery.
 - **Waiting for:** the author's review and commit.
 - **Latest handoff:** `.ai/project/handoffs/2026-11-10-terminology-policy.md`.
 
@@ -17,8 +16,7 @@ Initialization is complete and locked. The plan and its history are decision 000
 
 ## Next steps
 
-1. **Batch 2c, part 2.** Definitions and examples for the 22 entries from « jeton » to « structuration contextuelle », and an English-to-French index. Then the `canadian-french` and `slop-check` passes on the whole glossary, and `status: review`; native review stays pending.
-2. **Build order step 3,** the fictional engagement brief. First settle OD-11 with the author, using `grilling`.
+1. **Build order step 3,** the fictional engagement brief. First settle OD-11 with the author, using `grilling`.
 
 ## Open questions
 
