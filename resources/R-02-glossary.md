@@ -35,6 +35,23 @@ Les parties du programme portent ces noms dans tous les documents en français.
 | Business and people track | Parcours Gestion et affaires |
 | Overlays | Modules transversaux |
 
+## Étapes de la boucle de travail
+
+<!-- Added 2026-11-11 with C-04, names settled by the author. Native-speaker review pending for this section only. -->
+
+La boucle de travail compte huit étapes. Elles portent ces noms dans tous les documents en français, toujours dans cet ordre.
+
+| Anglais | Français |
+|---|---|
+| Frame | Cadrer |
+| Give context | Donner le contexte |
+| Ask | Demander |
+| Inspect | Examiner |
+| Iterate | Itérer |
+| Verify | Vérifier |
+| Approve | Approuver |
+| Capture | Conserver |
+
 ## Termes
 
 Les entrées suivent l’ordre alphabétique du terme retenu.
