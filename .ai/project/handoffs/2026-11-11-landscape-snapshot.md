@@ -11,18 +11,19 @@ Close the open questions of the previous session, then write C-02 (the landscape
 
 - **Decision 0017** was already marked `accepted` by the author (commit `24808af`).
 - **R-01 placed in the build order:** it is a sub-step of step 4, after the core lessons and before step 5. It is a sub-step rather than a new step 5 because renumbering would make OD-09's "build order, step 9" in `open-decisions.md` (locked, not covered by the approval) point at the wrong step.
-- **C-02 settled:** the author approved four points "as recommended" on 2026-11-11. They are recorded in decision 0018 (`proposed`):
+- **C-02 settled:** the author approved four points "as recommended" on 2026-11-11. They are recorded in decision 0018, which the author then accepted:
   - OD-10: the presenter of record owns the snapshot;
   - `minutes: 4`, with the full version as learner text;
   - a blank « Approuvé ici » column on the map;
   - two or three public examples per category, each checked on a vendor page.
-- **C-02 written,** `lessons/core/C-02-landscape-snapshot.md`, titled « Ce qui existe aujourd’hui » (title not yet confirmed by the author):
+- **C-02 written,** `lessons/core/C-02-landscape-snapshot.md`, titled « Ce qui existe aujourd’hui » (title confirmed by the author):
   - 4 minutes and 3 slides, with the show of hands on the map slide;
   - learner text: the seven categories, each answering the three questions, with dated examples;
   - the examples come from the brief: Kevin's first rule and Isabelle's request for proposals.
-- **Vendor pages** were opened on 2026-11-11 for 15 products; the URLs are in the lesson's re-verify list.
-  - OpenAI's pages returned HTTP 403, so ChatGPT and Codex are left out.
+- **Vendor pages** were opened on 2026-11-11 for 17 products; the URLs are in the lesson's re-verify list.
+  - openai.com returned HTTP 403, even to a generic browser user agent (no personal data in it). At the author's request the fetch was retried, and OpenAI's documentation at learn.chatgpt.com loaded. ChatGPT and Codex were added from it (batch 4e).
   - The Microsoft 365 Copilot product page timed out; the Microsoft Learn pages were used instead.
+- **After batch 4d:** the author accepted decision 0018, confirmed the title « Ce qui existe aujourd’hui », approved the OD-10 status change, and kept « interface de programmation d’application (API) » as written.
 
 ## Files changed
 
@@ -38,7 +39,15 @@ Batch 4d (C-02):
 - `resources/fictional-engagement.md`: C-02 listed among the uses of stages 1 and 4.
 - `.ai/project/state.md`, this handoff.
 
+Batch 4e (follow-ups to C-02):
+
+- `lessons/core/C-02-landscape-snapshot.md`: ChatGPT and Codex added to the examples and to the re-verify list; the OpenAI note removed. The GitHub Copilot agent mode stays mentioned in the text, but leaves the list of agent examples.
+- `.ai/project/knowledge/vendor-pages.md`: new note on which vendor pages can be read automatically.
+- `.ai/project/state.md`, this handoff.
+
 Locked files changed (stage `build` only), each with the author's approval quoted and dated:
+
+- `.ai/project/spec/open-decisions.md`: OD-10 status "settled on 2026-11-11 (decision 0018)". Approval: "3. Yes", 2026-11-11.
 
 - `.ai/project/spec/build-order.md`: R-01 added as a sub-step of step 4. Approval: "Approved to edit `.ai/project/spec/build-order.md` this time", 2026-11-11.
 
@@ -62,12 +71,8 @@ Locked files changed (stage `build` only), each with the author's approval quote
 
 ## Open questions
 
-1. Accept decision 0018.
-2. Confirm the C-02 title « Ce qui existe aujourd’hui ».
-3. Approve setting OD-10 to "settled on 2026-11-11 (decision 0018)" in `.ai/project/spec/open-decisions.md` (locked).
-4. ChatGPT and Codex: add them to C-02 only after the author opens OpenAI's pages and confirms what they show.
-5. « interface de programmation d’application (API) »: not in the glossary and not checked in the GDT.
+None.
 
 ## Next step
 
-Start the session routine and ask the open questions above. Then C-03 (task fit and limits) with `lesson-writing`; its checkpoint is checkpoint 2 of the common session, which follows C-02 in segment 2.
+Start the session routine. Then C-03 (task fit and limits) with `lesson-writing`: its question is checkpoint 2 of the common session, which closes segment 2 after C-02. Show the plan before writing.

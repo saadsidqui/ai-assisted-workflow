@@ -121,7 +121,7 @@ Ces trois questions s’appliquent à chaque catégorie. Les réponses ci-dessou
 
 #### Assistants de clavardage
 
-Exemples : Claude, Gemini.
+Exemples : ChatGPT, Claude, Gemini.
 
 Il sert à converser, à rédiger, à résumer ou à analyser un document que vous fournissez. Il voit ce que vous tapez et les fichiers que vous joignez. Avec une extension ou un connecteur (*connector*), il voit aussi les données des autres applications que vous lui ouvrez. En général, il répond sans rien envoyer. Certaines applications exécutent aussi des tâches planifiées : vérifiez ce qui est activé.
 
@@ -139,7 +139,7 @@ Il sert à suggérer du code pendant que vous tapez, et à expliquer du code. Il
 
 #### Agents de programmation
 
-Exemples : Claude Code, Cursor, le mode agent de GitHub Copilot.
+Exemples : Claude Code, Codex, Cursor.
 
 Il sert à réaliser une tâche de programmation de bout en bout, dans le terminal, dans l’éditeur ou dans le nuage. Il voit le dépôt, le terminal et, si vous l’y autorisez, le Web. Il lit le code, modifie des fichiers, lance des commandes et ouvre des demandes de fusion. Ce qu’il fait sans vous demander dépend des autorisations (*permissions*). Par défaut, Claude Code demande avant de modifier un fichier ou de lancer la plupart des commandes; d’autres modes acceptent ces actions d’office. Les agents dans le nuage travaillent sur leur propre ordinateur et vous soumettent le résultat.
 
@@ -218,12 +218,14 @@ Responsable : la personne qui présente la séance. Échéance : dans la semai
 - Les sept catégories, et ce que chacune voit et fait sans demander. Dernière vérification : le 11 novembre 2026.
 - Le changement de nom de Microsoft 365 Copilot, cité en exemple : [Qu’est-ce que Microsoft Copilot?](https://learn.microsoft.com/en-us/copilot/microsoft-365/copilot-overview). Dernière vérification : le 11 novembre 2026.
 - Les exemples, chacun vérifié le 11 novembre 2026 sur la page de son fournisseur :
+  - ChatGPT : [fonctions](https://learn.chatgpt.com/docs/features);
   - Claude : [présentation du produit](https://claude.com/product/overview);
   - Gemini : [présentation de l’application](https://gemini.google/overview/);
   - Microsoft Copilot : [présentation](https://learn.microsoft.com/en-us/copilot/microsoft-365/copilot-overview) et [données et confidentialité](https://learn.microsoft.com/en-us/copilot/microsoft-365/microsoft-365-copilot-privacy);
   - Gemini dans Google Workspace : [l’IA dans Google Workspace](https://workspace.google.com/solutions/ai/);
   - GitHub Copilot : [présentation](https://docs.github.com/en/copilot/get-started/what-is-github-copilot);
   - Claude Code : [présentation](https://code.claude.com/docs/en/overview) et [autorisations](https://code.claude.com/docs/en/permissions);
+  - Codex : [approbations et sécurité](https://learn.chatgpt.com/docs/agent-approvals-security);
   - Cursor : [page d’accueil](https://cursor.com/);
   - Perplexity : [fonctionnement](https://www.perplexity.ai/help-center/en/articles/10352895-how-does-perplexity-work);
   - Gemini Deep Research : [page d’aide](https://support.google.com/gemini/answer/15719111);
@@ -233,4 +235,3 @@ Responsable : la personne qui présente la séance. Échéance : dans la semai
   - Adobe Firefly : [page du produit](https://www.adobe.com/products/firefly.html);
   - ElevenLabs : [page d’accueil](https://elevenlabs.io/);
   - Veo : [page du modèle](https://deepmind.google/models/veo/).
-- Les produits d’OpenAI, dont ChatGPT et Codex : leurs pages ont refusé la lecture automatisée le 11 novembre 2026, et ils ne figurent donc pas parmi les exemples. À vérifier à la main avant de les ajouter. Dernière vérification : à faire.

@@ -88,7 +88,7 @@ D.1 to D.3 and D.5 to D.8 are covered by `AGENTS.md` and the curriculum conventi
 
 - **Proposal:** the owner is the presenter of record for each delivery. The snapshot is refreshed within the week before each delivery and at least once a quarter.
 - **Settle by:** before the C-02 lesson.
-- **Status:** open.
+- **Status:** settled on 2026-11-11 (decision 0018).
 
 ### OD-11 · The fictional engagement
 
