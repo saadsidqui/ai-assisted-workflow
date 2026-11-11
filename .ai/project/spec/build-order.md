@@ -6,6 +6,7 @@ The order that makes each deliverable usable by the next. It extends the order i
 2. **Glossary (R-02).** Every lesson depends on its terms.
 3. **Fictional engagement brief.** It supplies the running example of the common session and the material of every workshop pack. This step is an addition to R-03, which lists the brief as an asset but gives it no place in the order.
 4. **Core lessons, C-01 to C-08**, with full speaker notes. The X-02 lesson is written alongside them, because segment 4 of the common session uses one of its slides.
+   - **Then further reading (R-01),** before step 5, so that the further-reading section of each core lesson can link to it. This is an addition to R-03, which does not place R-01 in its order.
 5. **Presenter guide (S-01) and workshop packs (S-02).** The author tests the packs with the real tool and account type.
 6. **Core handouts:** working loop, brief skeleton, review checklist, "what goes where" template.
 7. **Common-session deck**, on demand.
