@@ -118,7 +118,7 @@ Exercice, avec son point de départ préparé :
 
 - B-04 : la demande d’offres de services.
 
-C-01 s’en sert aussi comme exemple : Isabelle lit la demande avec l’assistant.
+C-01 et C-02 s’en servent aussi comme exemple : Isabelle lit la demande avec l’assistant.
 
 ### 2. Découverte
 
@@ -165,6 +165,7 @@ Le même jour, Marc-André prépare un résumé du projet pour le personnel des 
 Emplois de cette étape :
 
 - C-01 : la date d’ouverture, d’abord demandée sans document, puis avec l’offre de services et le compte rendu;
+- C-02 : la première règle de Kevin, pour savoir quelle application est approuvée pour les documents du client;
 - C-04 et la séance commune : le résumé pour le personnel (voir « L’exemple de la séance commune »);
 - X-01 : ses exemples de premier jour chez un client.
 

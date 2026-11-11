@@ -6,7 +6,7 @@ track: core
 minutes: 15
 status: review
 last_verified: "2026-11-11"
-native_review: pending
+native_review: done 2026-11-11
 glossary:
   - intelligence artificielle
   - IA générative
