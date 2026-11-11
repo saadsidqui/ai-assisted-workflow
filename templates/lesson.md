@@ -19,7 +19,7 @@ How to use this template (English guidance; delete every GUIDE comment once the 
   - title: the French title, in sentence case, without the ID.
   - card: the path of the module card.
   - track: one of the listed values.
-  - minutes: the card's "Time" line (OD-05).
+  - minutes: for a core module, the card's "Time" line plus the checkpoint row that S-01 gives its segment; for any other module, the card's "Time" line, checkpoint included (decision 0017).
   - status: draft | review | ready.
   - last_verified: the date the "re-verify" list was last checked.
   - native_review: pending until a native speaker has reviewed the lesson, then "done YYYY-MM-DD".

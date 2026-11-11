@@ -5,7 +5,7 @@ sources:
   - .ai/project/spec/curriculum/session/S-02-workshop.md
 decision: .ai/project/decisions/0016-fictional-engagement.md
 status: review
-native_review: accepted
+native_review: done 2026-11-11
 ---
 
 <!-- Settled with the author on 2026-11-10 (OD-11, decision 0016). This brief fixes the facts; each pack or lesson writes the full document it uses. The programming language and the sample repository are left to OD-04 and OD-16. The E-03 labs use this project only if OD-16 chooses it. -->
@@ -118,6 +118,8 @@ Exercice, avec son point de départ préparé :
 
 - B-04 : la demande d’offres de services.
 
+C-01 s’en sert aussi comme exemple : Isabelle lit la demande avec l’assistant.
+
 ### 2. Découverte
 
 Le 4 février, Isabelle et Léa rencontrent Hélène, Patrick et Amina. Hélène et Patrick se contredisent sur l’échéance :
@@ -162,6 +164,7 @@ Le même jour, Marc-André prépare un résumé du projet pour le personnel des 
 
 Emplois de cette étape :
 
+- C-01 : la date d’ouverture, d’abord demandée sans document, puis avec l’offre de services et le compte rendu;
 - C-04 et la séance commune : le résumé pour le personnel (voir « L’exemple de la séance commune »);
 - X-01 : ses exemples de premier jour chez un client.
 

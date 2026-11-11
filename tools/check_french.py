@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # SPDX-License-Identifier: MIT
 # SPDX-FileCopyrightText: 2026 Saad Sidqui
-"""Run the typography checks F1 to F21 on the French prose of Markdown files.
+"""Run the typography checks F1 to F22 on the French prose of Markdown files.
 
 The patterns are read from .claude/skills/canadian-french/references/typography-checks.md,
 which stays their single source. Every hit is a candidate to read in context.

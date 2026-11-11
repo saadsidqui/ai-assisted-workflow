@@ -27,6 +27,7 @@ Mechanical checks for French text, each tied to a rule in `DESIGN.md` section 9.
 | F19 | Ordinal written with superscript markup, or "1st" | `1<sup>er</sup>` or `\b1st\b` | `1er` | Dates |
 | F20 | Narrow non-breaking space used | `\u202f` | NB | This project uses NB only |
 | F21 | Numeric date in running text | `\b\d{4}-\d{2}-\d{2}\b` outside tables and front matter | le 10 novembre 2026 | Dates, running text |
+| F22 | Plain space inside a date | `\b\d{1,2}(?:er)? (?:janvier|février|mars|avril|mai|juin|juillet|août|septembre|octobre|novembre|décembre)\b` and `\b(?:janvier|février|mars|avril|mai|juin|juillet|août|septembre|octobre|novembre|décembre) \d{4}\b` | `10NBnovembreNB2026` | Dates, running text |
 
 Notes:
 

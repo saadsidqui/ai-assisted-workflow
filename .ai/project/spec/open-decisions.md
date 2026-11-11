@@ -37,7 +37,7 @@ Content and program decisions not yet taken. Each has a proposal and the point b
 - **Problem:** the track pages count each checkpoint inside its module's minutes. S-01 counts core checkpoints as separate rows.
 - **Proposal:** a lesson's front matter `minutes` follows its card's "Time" line. The lesson's own timing table always shows the checkpoint as its own row, so both conventions read the same way. The lesson template (initialization, Batch 5) follows this proposal unless the author decides otherwise.
 - **Settle by:** Batch 5.
-- **Status:** open.
+- **Status:** settled on 2026-11-11 (decision 0017).
 
 ### OD-06 · Glossary candidates to check first (P8)
 

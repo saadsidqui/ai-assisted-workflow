@@ -4,7 +4,7 @@ title: Glossaire
 card: .ai/project/spec/curriculum/resources/R-02-glossary-seed.md
 status: review
 last_verified: "2026-11-10"
-native_review: accepted
+native_review: done 2026-11-11
 ---
 
 <!-- Policy and author-settled terms: .ai/project/decisions/0014-terminology-policy.md, 0015-glossary-terms-settled-by-the-author.md and 0016-fictional-engagement.md. Names of the program's parts: 0012-program-names.md. Every GDT link was opened on 2026-11-10. -->
@@ -45,7 +45,7 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 - **Définition :** modèle qui travaille en boucle avec des outils pour atteindre un objectif : il planifie, agit, vérifie et recommence.
 - **Exemple :** l’agent compare les chiffres de trois rapports et prépare un tableau, qu’il vous soumet avant tout envoi.
 - **Règle :** 1.
-- **Source :** GDT, fiche [« agent intelligent »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8394387/agent-intelligent), mise à jour en 2018, consultée le 10 novembre 2026.
+- **Source :** GDT, fiche [« agent intelligent »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8394387/agent-intelligent), mise à jour en 2018, consultée le 10 novembre 2026.
 - **Introduit dans :** C-01 et C-08.
 - **Emploi :** « agent » seul suffit en contexte. Pour la catégorie de systèmes, voir « IA agentive ».
 
@@ -55,7 +55,7 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 - **Définition :** produit construit autour du modèle, comme une application de clavardage ou une extension d’environnement de développement.
 - **Exemple :** le même modèle peut répondre dans l’application de clavardage de l’équipe et dans l’extension de votre éditeur de code.
 - **Règle :** 1.
-- **Source :** GDT, fiche [« outil d’intelligence artificielle »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26574413/outil-dintelligence-artificielle), mise à jour en 2024, consultée le 10 novembre 2026.
+- **Source :** GDT, fiche [« outil d’intelligence artificielle »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26574413/outil-dintelligence-artificielle), mise à jour en 2024, consultée le 10 novembre 2026.
 - **Introduit dans :** C-01.
 - **Emploi :** le GDT privilégie aussi « application d’intelligence artificielle » et « outil d’intelligence artificielle ». Le glossaire retient « application », car « outil » désigne ce que l’application laisse le modèle utiliser (voir ce terme).
 
@@ -65,7 +65,7 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 - **Définition :** application d’IA avec laquelle vous conversez en langage courant pour accomplir une tâche.
 - **Exemple :** vous demandez à l’assistant de résumer un compte rendu de réunion en cinq points, puis vous vérifiez chaque point.
 - **Règle :** 1.
-- **Source :** GDT, fiche [« assistant virtuel »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26541739/assistant-virtuel), mise à jour en 2023, consultée le 10 novembre 2026.
+- **Source :** GDT, fiche [« assistant virtuel »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26541739/assistant-virtuel), mise à jour en 2023, consultée le 10 novembre 2026.
 - **Introduit dans :** C-01.
 - **Emploi :** « assistant virtuel » à la première mention, puis « assistant ».
 
@@ -75,7 +75,7 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 - **Définition :** droit accordé à un agent d’effectuer une action précise, comme lire un fichier ou lancer une commande.
 - **Exemple :** les réglages autorisent la lecture des fichiers, demandent une confirmation avant toute commande et refusent l’accès au dossier des secrets.
 - **Règle :** 1, et 4 pour les noms de paramètres, qui restent en anglais.
-- **Source :** GDT, fiche [« autorisation d’accès »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8374340/autorisation-dacces), mise à jour en 1999, consultée le 10 novembre 2026.
+- **Source :** GDT, fiche [« autorisation d’accès »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8374340/autorisation-dacces), mise à jour en 1999, consultée le 10 novembre 2026.
 - **Introduit dans :** E-03.2.
 
 ### bac à sable
@@ -84,7 +84,7 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 - **Définition :** environnement isolé où un agent peut exécuter du code ou des commandes sans toucher au reste du système.
 - **Exemple :** vous laissez l’agent essayer sa correction dans un bac à sable avant de l’appliquer au projet.
 - **Règle :** 1.
-- **Source :** GDT, fiche [« bac à sable »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26520079/bac-a-sable), mise à jour en 2022, consultée le 10 novembre 2026.
+- **Source :** GDT, fiche [« bac à sable »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26520079/bac-a-sable), mise à jour en 2022, consultée le 10 novembre 2026.
 - **Introduit dans :** E-03.3.
 - **Emploi :** le GDT privilégie aussi « espace de test ». Le glossaire retient « bac à sable ».
 
@@ -94,7 +94,7 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 - **Définition :** ligne de développement parallèle dans un dépôt, qui permet de préparer des modifications sans toucher à la version principale.
 - **Exemple :** l’agent travaille sur une branche à part, et vous examinez ses modifications avant de les fusionner.
 - **Règle :** 2.
-- **Source :** aucune fiche du GDT pour le sens de la gestion de versions (recherche du 10 novembre 2026).
+- **Source :** aucune fiche du GDT pour le sens de la gestion de versions (recherche du 10 novembre 2026).
 - **Introduit dans :** E-02.
 
 ### classification de sécurité
@@ -103,7 +103,7 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 - **Définition :** niveau attribué à une donnée selon sa valeur et la protection qu’elle exige, par exemple public, interne ou confidentiel.
 - **Exemple :** avant de joindre un document à une requête, vous vérifiez sa classification de sécurité dans la politique de l’organisation.
 - **Règle :** 1.
-- **Source :** GDT, fiche [« classification de sécurité »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8358398/classification-de-securite), mise à jour en 2004, consultée le 10 novembre 2026.
+- **Source :** GDT, fiche [« classification de sécurité »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8358398/classification-de-securite), mise à jour en 2004, consultée le 10 novembre 2026.
 - **Introduit dans :** C-07.
 - **Emploi :** « classification » seul suffit en contexte. Les niveaux varient d’une organisation à l’autre.
 
@@ -113,7 +113,7 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 - **Définition :** enregistrement, dans un dépôt, d’un ensemble de modifications accompagné d’un message qui les décrit.
 - **Exemple :** après chaque petite étape vérifiée, vous créez un *commit* qui explique ce qui a changé et pourquoi.
 - **Règle :** 4, nom d’une commande de Git (`git commit`).
-- **Source :** GDT, fiche [« archiver »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8870443/archiver), mise à jour en 2002, consultée le 10 novembre 2026. Le GDT privilégie le verbe « archiver » et déconseille « commit ».
+- **Source :** GDT, fiche [« archiver »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8870443/archiver), mise à jour en 2002, consultée le 10 novembre 2026. Le GDT privilégie le verbe « archiver » et déconseille « commit ».
 - **Introduit dans :** E-02.
 - **Emploi :** « archiver » figure une fois, à la première mention, comme terme du GDT. Comme verbe, écrivez « créer un commit ».
 
@@ -123,7 +123,7 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 - **Définition :** lien qui donne à une application d’IA accès aux données d’un autre système, comme une messagerie ou un dossier partagé.
 - **Exemple :** avant d’activer le connecteur de la messagerie, vous vérifiez quelles données il pourra lire et envoyer.
 - **Règle :** 2.
-- **Source :** aucune fiche du GDT pour ce sens (recherche du 10 novembre 2026).
+- **Source :** aucune fiche du GDT pour ce sens (recherche du 10 novembre 2026).
 - **Introduit dans :** C-05 et C-07.
 
 ### consigne
@@ -132,7 +132,7 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 - **Définition :** demande structurée que vous adressez à l’assistant : l’objectif, le contexte, les contraintes et le résultat attendu.
 - **Exemple :** votre consigne précise le public visé et la longueur maximale du texte.
 - **Règle :** 2.
-- **Source :** aucune fiche du GDT pour ce sens (recherche du 10 novembre 2026). La fiche [« énoncé de projet »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8403165/enonce-de-projet) vise le *project brief*, une autre notion.
+- **Source :** aucune fiche du GDT pour ce sens (recherche du 10 novembre 2026). La fiche [« énoncé de projet »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8403165/enonce-de-projet) vise le *project brief*, une autre notion.
 - **Introduit dans :** C-04.
 - **Emploi :** « donner une consigne » rend *to brief*. Le terme anglais figure une fois, à la première mention. Le gabarit réutilisable de C-04 s’appelle le « gabarit de consigne ».
 
@@ -142,7 +142,7 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 - **Définition :** conditions vérifiables qu’un résultat doit remplir pour être jugé terminé.
 - **Exemple :** le récit utilisateur fixe trois critères d’acceptation, dont un délai de réponse inférieur à deux secondes.
 - **Règle :** 2.
-- **Source :** aucune fiche du GDT pour ce sens (recherche du 10 novembre 2026). La fiche [« critère d’acceptation »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/3298690/critere-dacceptation) (AFNOR, 1977) vise le contrôle par échantillonnage, une autre notion.
+- **Source :** aucune fiche du GDT pour ce sens (recherche du 10 novembre 2026). La fiche [« critère d’acceptation »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/3298690/critere-dacceptation) (AFNOR, 1977) vise le contrôle par échantillonnage, une autre notion.
 - **Introduit dans :** P-02.
 
 ### date limite des connaissances
@@ -151,7 +151,7 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 - **Définition :** date après laquelle le modèle n’a plus de données d’entraînement, si bien qu’il ignore les faits plus récents.
 - **Exemple :** pour un règlement modifié le mois dernier, vous fournissez le nouveau texte, car il est postérieur à la date limite des connaissances.
 - **Règle :** 2.
-- **Source :** aucune fiche du GDT pour ce sens (recherche du 10 novembre 2026).
+- **Source :** aucune fiche du GDT pour ce sens (recherche du 10 novembre 2026).
 - **Introduit dans :** C-01.
 
 ### demande de fusion
@@ -160,7 +160,7 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 - **Définition :** demande d’intégrer les modifications d’une branche à la branche principale, après examen et tests.
 - **Exemple :** l’agent ouvre une demande de fusion, et une personne de l’équipe la relit avant de l’accepter.
 - **Règle :** 1.
-- **Source :** GDT, fiche [« demande de fusion »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26584234/demande-de-fusion), mise à jour en 2025, consultée le 10 novembre 2026.
+- **Source :** GDT, fiche [« demande de fusion »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26584234/demande-de-fusion), mise à jour en 2025, consultée le 10 novembre 2026.
 - **Introduit dans :** E-02.
 - **Emploi :** le GDT donne aussi l’anglais *merge request*.
 
@@ -170,7 +170,7 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 - **Définition :** demande par laquelle un client invite quelques firmes à lui soumettre une offre de services pour un contrat.
 - **Exemple :** la demande d’offres de services de Location Pavois énumère six exigences et fixe la date limite des réponses.
 - **Règle :** 2.
-- **Source :** aucune fiche de l’OQLF pour cette notion (recherche du 10 novembre 2026). Le GDT reproduit deux fiches sans terme privilégié : [« demande d’offres de services »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/507660/demande-doffres-de-services) (ICCA, 2006) et [« demande de propositions »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26511021/demande-de-propositions) (FMI, 2011).
+- **Source :** aucune fiche de l’OQLF pour cette notion (recherche du 10 novembre 2026). Le GDT reproduit deux fiches sans terme privilégié : [« demande d’offres de services »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/507660/demande-doffres-de-services) (ICCA, 2006) et [« demande de propositions »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26511021/demande-de-propositions) (FMI, 2011).
 - **Introduit dans :** B-04.
 - **Emploi :** la réponse est une « offre de services » (voir ce terme). Au GDT, « appel d’offres » rend *call for tenders*, une autre procédure.
 
@@ -180,7 +180,7 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 - **Définition :** espace où sont conservés les fichiers d’un projet avec l’historique de leurs versions.
 - **Exemple :** le dépôt contient le code du projet et le fichier d’instructions de l’agent.
 - **Règle :** 1.
-- **Source :** GDT, fiche [« dépôt de code source »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26584236/depot-de-code-source), mise à jour en 2025, consultée le 10 novembre 2026.
+- **Source :** GDT, fiche [« dépôt de code source »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26584236/depot-de-code-source), mise à jour en 2025, consultée le 10 novembre 2026.
 - **Introduit dans :** E-02.
 - **Emploi :** « dépôt » seul suffit en contexte.
 
@@ -190,7 +190,7 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 - **Définition :** affichage des lignes ajoutées, supprimées ou modifiées entre deux versions d’un fichier.
 - **Exemple :** avant d’accepter la correction, vous lisez le *diff* ligne par ligne.
 - **Règle :** 3, et 4 pour la commande `git diff`.
-- **Source :** aucune fiche du GDT pour ce sens (recherche du 10 novembre 2026).
+- **Source :** aucune fiche du GDT pour ce sens (recherche du 10 novembre 2026).
 - **Introduit dans :** E-02.
 
 ### document d’accompagnement
@@ -199,7 +199,7 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 - **Définition :** document d’une page remis aux personnes participantes, qu’elles gardent pour appliquer la séance dans leur travail.
 - **Exemple :** le document d’accompagnement sur la boucle de travail reprend en une page les étapes vues en séance.
 - **Règle :** 1.
-- **Source :** GDT, fiche [« document d’accompagnement »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26559981/document-daccompagnement) (FranceTerme, 2021), consultée le 10 novembre 2026.
+- **Source :** GDT, fiche [« document d’accompagnement »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26559981/document-daccompagnement) (FranceTerme, 2021), consultée le 10 novembre 2026.
 - **Introduit dans :** C-04.
 - **Emploi :** le GDT privilégie aussi « document d’appui ». Le glossaire retient « document d’accompagnement ». Le mot « fiche » désigne seulement une fiche de module ou une fiche du GDT.
 
@@ -209,7 +209,7 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 - **Définition :** document qui transmet un système livré à l’équipe qui l’exploitera : son fonctionnement, son administration et ce qu’il faut surveiller.
 - **Exemple :** à la livraison, le chargé de projet remet le document de passation à l’équipe informatique du client.
 - **Règle :** 2.
-- **Source :** aucune fiche du GDT pour cette notion (recherche du 10 novembre 2026).
+- **Source :** aucune fiche du GDT pour cette notion (recherche du 10 novembre 2026).
 - **Introduit dans :** X-03.
 - **Emploi :** de la même famille que « passation ». La note de passation transmet le travail d’une session à la suivante; le document de passation transmet un système à l’équipe du client.
 
@@ -219,7 +219,7 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 - **Définition :** court document qui présente un projet : son but, son public, ses contraintes et ses échéances.
 - **Exemple :** vous joignez l’énoncé de projet à chaque nouvelle conversation pour que l’assistant connaisse le contexte.
 - **Règle :** 1.
-- **Source :** GDT, fiche [« énoncé de projet »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8403165/enonce-de-projet), mise à jour en 1992, consultée le 10 novembre 2026.
+- **Source :** GDT, fiche [« énoncé de projet »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8403165/enonce-de-projet), mise à jour en 1992, consultée le 10 novembre 2026.
 - **Introduit dans :** C-05.
 - **Emploi :** à distinguer de la « consigne », qui décrit une tâche confiée à l’assistant.
 
@@ -229,7 +229,7 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 - **Définition :** processus au cours duquel un modèle ajuste ses paramètres à partir d’un très grand volume de données.
 - **Exemple :** le modèle n’a pas vu les documents internes de l’organisation pendant son entraînement, donc il ne les connaît pas.
 - **Règle :** 1.
-- **Source :** GDT, fiche [« entraînement »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26574362/entrainement), mise à jour en 2024, consultée le 10 novembre 2026.
+- **Source :** GDT, fiche [« entraînement »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26574362/entrainement), mise à jour en 2024, consultée le 10 novembre 2026.
 - **Introduit dans :** C-01.
 - **Emploi :** le GDT réserve « apprentissage » au terme générique.
 
@@ -239,7 +239,7 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 - **Définition :** quantité maximale d’information que le modèle prend en compte à la fois : requête, conversation et documents joints.
 - **Exemple :** dans une très longue conversation, les premiers échanges peuvent sortir de la fenêtre de contexte.
 - **Règle :** 1.
-- **Source :** GDT, fiche [« fenêtre de contexte »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26580666/fenetre-de-contexte), mise à jour en 2025, consultée le 10 novembre 2026.
+- **Source :** GDT, fiche [« fenêtre de contexte »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26580666/fenetre-de-contexte), mise à jour en 2025, consultée le 10 novembre 2026.
 - **Introduit dans :** C-01 et C-05.
 - **Emploi :** le GDT privilégie aussi « longueur de contexte ». Le glossaire retient « fenêtre de contexte ».
 
@@ -249,7 +249,7 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 - **Définition :** fichier placé dans un projet, que l’agent lit au début de chaque session pour connaître les règles de travail.
 - **Exemple :** le fichier d’instructions rappelle à l’agent de lancer les tests avant de proposer une modification.
 - **Règle :** 2.
-- **Source :** aucune fiche du GDT pour ce sens (recherche du 10 novembre 2026).
+- **Source :** aucune fiche du GDT pour ce sens (recherche du 10 novembre 2026).
 - **Introduit dans :** E-03.1.
 
 ### fine-tuning
@@ -258,7 +258,7 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 - **Définition :** entraînement complémentaire d’un modèle existant sur un ensemble restreint de données, pour l’adapter à une tâche ou à un domaine.
 - **Exemple :** le fournisseur propose un *fine-tuning* du modèle sur les réponses validées du service à la clientèle.
 - **Règle :** 3.
-- **Source :** aucune fiche du GDT pour la notion en intelligence artificielle (recherche du 10 novembre 2026). La fiche [« apprentissage par transfert »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26577039/apprentissage-par-transfert) (FranceTerme, 2024) correspond à l’anglais *transfer learning*, une notion voisine.
+- **Source :** aucune fiche du GDT pour la notion en intelligence artificielle (recherche du 10 novembre 2026). La fiche [« apprentissage par transfert »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26577039/apprentissage-par-transfert) (FranceTerme, 2024) correspond à l’anglais *transfer learning*, une notion voisine.
 - **Introduit dans :** C-01 (sujet facultatif).
 
 ### flux de travaux
@@ -267,7 +267,7 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 - **Définition :** suite d’étapes organisées selon des règles établies, qui mène à un produit ou à un service.
 - **Exemple :** dans le flux de travaux de l’équipe, chaque texte produit avec l’IA passe par une révision humaine avant publication.
 - **Règle :** 1.
-- **Source :** GDT, fiche [« flux de travaux »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8362151/flux-de-travaux), mise à jour en 2009, consultée le 10 novembre 2026.
+- **Source :** GDT, fiche [« flux de travaux »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8362151/flux-de-travaux), mise à jour en 2009, consultée le 10 novembre 2026.
 - **Introduit dans :** C-04.
 - **Emploi :** « travaux » au pluriel, comme au GDT.
 
@@ -277,7 +277,7 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 - **Définition :** méthode qui fournit au modèle des passages tirés de sources externes au moment de la requête, pour fonder sa réponse.
 - **Exemple :** l’application documentaire de l’organisation utilise la génération augmentée par récupération : elle cite les pages d’où vient chaque réponse.
 - **Règle :** 1.
-- **Source :** GDT, fiche [« génération augmentée par récupération »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26584182/generation-augmentee-par-recuperation), mise à jour en 2025, consultée le 10 novembre 2026.
+- **Source :** GDT, fiche [« génération augmentée par récupération »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26584182/generation-augmentee-par-recuperation), mise à jour en 2025, consultée le 10 novembre 2026.
 - **Introduit dans :** C-01.
 - **Emploi :** le sigle « RAG », que le GDT admet dans ce domaine, suit le terme à la première mention.
 
@@ -287,7 +287,7 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 - **Définition :** modèle entraîné sur une très grande quantité de texte, qui produit la suite la plus plausible d’un texte donné.
 - **Exemple :** le grand modèle de langage rédige un premier jet du courriel, que vous corrigez avant de l’envoyer.
 - **Règle :** 1.
-- **Source :** GDT, fiche [« grand modèle de langage »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26570880/grand-modele-de-langage), mise à jour en 2025, consultée le 10 novembre 2026.
+- **Source :** GDT, fiche [« grand modèle de langage »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26570880/grand-modele-de-langage), mise à jour en 2025, consultée le 10 novembre 2026.
 - **Introduit dans :** C-01.
 - **Emploi :** le sigle « LLM » figure à la première mention seulement. Ensuite, le terme complet ou « modèle ».
 
@@ -297,7 +297,7 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 - **Définition :** contenu faux ou inventé qu’un modèle présente comme un fait.
 - **Exemple :** l’assistant cite un article de loi qui n’existe pas : c’est une hallucination, que vous repérez en vérifiant la source.
 - **Règle :** 1.
-- **Source :** GDT, fiche [« hallucination d’IA »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26571221/hallucination-dia), mise à jour en 2023, consultée le 10 novembre 2026.
+- **Source :** GDT, fiche [« hallucination d’IA »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26571221/hallucination-dia), mise à jour en 2023, consultée le 10 novembre 2026.
 - **Introduit dans :** C-01.
 
 ### hook
@@ -306,7 +306,7 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 - **Définition :** commande qui s’exécute automatiquement à un moment précis du travail de l’agent, par exemple après chaque modification de fichier.
 - **Exemple :** un *hook* lance les tests après chaque modification de l’agent.
 - **Règle :** 3, et 4 pour le nom d’un paramètre.
-- **Source :** aucune fiche du GDT pour le sens logiciel (recherche du 10 novembre 2026).
+- **Source :** aucune fiche du GDT pour le sens logiciel (recherche du 10 novembre 2026).
 - **Introduit dans :** E-03.2.
 
 ### IA agentive
@@ -315,7 +315,7 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 - **Définition :** IA conçue pour poursuivre un objectif de façon autonome : elle planifie, utilise des outils et découpe le travail en sous-tâches.
 - **Exemple :** un service d’IA agentive réserve une salle et invite les personnes, puis attend votre approbation.
 - **Règle :** 1.
-- **Source :** GDT, fiche [« intelligence artificielle agentive »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26578856/intelligence-artificielle-agentive), mise à jour en 2026, consultée le 10 novembre 2026.
+- **Source :** GDT, fiche [« intelligence artificielle agentive »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26578856/intelligence-artificielle-agentive), mise à jour en 2026, consultée le 10 novembre 2026.
 - **Introduit dans :** C-02.
 - **Emploi :** forme longue « intelligence artificielle agentive » à la première mention. Le GDT privilégie aussi « IA agentique ». Le glossaire retient « agentive ».
 
@@ -325,7 +325,7 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 - **Définition :** IA qui produit du contenu nouveau, comme du texte, des images ou du son, à partir d’une requête.
 - **Exemple :** l’équipe des communications utilise l’IA générative pour proposer trois titres, puis elle en choisit un.
 - **Règle :** 1.
-- **Source :** GDT, fiche [« intelligence artificielle générative »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26561649/intelligence-artificielle-generative), mise à jour en 2025, consultée le 10 novembre 2026.
+- **Source :** GDT, fiche [« intelligence artificielle générative »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26561649/intelligence-artificielle-generative), mise à jour en 2025, consultée le 10 novembre 2026.
 - **Introduit dans :** C-01.
 - **Emploi :** forme longue « intelligence artificielle générative » à la première mention.
 
@@ -335,7 +335,7 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 - **Définition :** attaque qui cache des instructions malveillantes dans un contenu que le modèle lit, pour détourner son comportement.
 - **Exemple :** une page Web contient un texte invisible qui ordonne à l’agent d’envoyer vos fichiers : c’est une infiltration de requête.
 - **Règle :** 1.
-- **Source :** GDT, fiche [« infiltration de requête »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26570960/infiltration-de-requete), mise à jour en 2023, consultée le 10 novembre 2026.
+- **Source :** GDT, fiche [« infiltration de requête »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26570960/infiltration-de-requete), mise à jour en 2023, consultée le 10 novembre 2026.
 - **Introduit dans :** C-07.
 - **Emploi :** le GDT privilégie aussi « infiltration d’invite ». Le glossaire retient « requête » (voir ce terme).
 
@@ -345,7 +345,7 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 - **Définition :** domaine de l’informatique qui conçoit des systèmes capables de tâches associées à l’intelligence humaine, comme comprendre ou rédiger un texte.
 - **Exemple :** l’organisation encadre l’usage de l’intelligence artificielle par une politique que chaque équipe doit connaître.
 - **Règle :** 1.
-- **Source :** GDT, fiche [« intelligence artificielle »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26552508/intelligence-artificielle) (FranceTerme, 2018), consultée le 10 novembre 2026.
+- **Source :** GDT, fiche [« intelligence artificielle »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26552508/intelligence-artificielle) (FranceTerme, 2018), consultée le 10 novembre 2026.
 - **Introduit dans :** C-01.
 - **Emploi :** « IA » après la première mention.
 
@@ -355,7 +355,7 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 - **Définition :** nouveau passage dans la boucle de travail : vous examinez le résultat, précisez la consigne et relancez la demande.
 - **Exemple :** après deux itérations, le résumé respecte la longueur demandée et cite les bonnes sources.
 - **Règle :** 2.
-- **Source :** GDT, fiche [« itération »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26559190/iteration), mise à jour en 2022, consultée le 10 novembre 2026. Elle vise le sens des méthodes agiles. Le programme emploie le mot au sens courant : un tour de plus dans la boucle de travail.
+- **Source :** GDT, fiche [« itération »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26559190/iteration), mise à jour en 2022, consultée le 10 novembre 2026. Elle vise le sens des méthodes agiles. Le programme emploie le mot au sens courant : un tour de plus dans la boucle de travail.
 - **Introduit dans :** C-04.
 
 ### jeton
@@ -364,7 +364,7 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 - **Définition :** unité de base que traite le modèle : un mot, une partie de mot ou un signe de ponctuation.
 - **Exemple :** la longueur d’un document se mesure en jetons, et chaque jeton compte dans la limite du modèle comme dans la facture.
 - **Règle :** 1.
-- **Source :** GDT, fiche [« jeton »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26584108/jeton), mise à jour en 2025, consultée le 10 novembre 2026.
+- **Source :** GDT, fiche [« jeton »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26584108/jeton), mise à jour en 2025, consultée le 10 novembre 2026.
 - **Introduit dans :** C-01.
 
 ### mandat
@@ -373,7 +373,7 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 - **Définition :** travail confié par un client à une équipe, avec un objectif et une durée définis.
 - **Exemple :** au début du mandat, l’équipe vérifie quelles applications d’IA le client autorise.
 - **Règle :** 2.
-- **Source :** aucune fiche de l’OQLF pour ce sens (recherche du 10 novembre 2026). Les fiches [« lettre de mission »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/502256/lettre-de-mission) et [« mission de conseil en gestion »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/506006/mission-de-conseil-en-gestion) viennent d’un dictionnaire de comptabilité (ICCA, 2006), sans terme privilégié.
+- **Source :** aucune fiche de l’OQLF pour ce sens (recherche du 10 novembre 2026). Les fiches [« lettre de mission »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/502256/lettre-de-mission) et [« mission de conseil en gestion »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/506006/mission-de-conseil-en-gestion) viennent d’un dictionnaire de comptabilité (ICCA, 2006), sans terme privilégié.
 - **Introduit dans :** X-03.
 
 ### modèle
@@ -382,7 +382,7 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 - **Définition :** moteur de l’application : un programme entraîné sur des données, qui produit une réponse à partir d’une requête.
 - **Exemple :** deux applications peuvent utiliser le même modèle et donner pourtant des résultats différents.
 - **Règle :** 1.
-- **Source :** GDT, fiche [« modèle d’intelligence artificielle »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26574363/modele-dintelligence-artificielle), mise à jour en 2024, consultée le 10 novembre 2026.
+- **Source :** GDT, fiche [« modèle d’intelligence artificielle »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26574363/modele-dintelligence-artificielle), mise à jour en 2024, consultée le 10 novembre 2026.
 - **Introduit dans :** C-01.
 - **Emploi :** « modèle » seul suffit en contexte.
 
@@ -392,7 +392,7 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 - **Définition :** modèle dont les paramètres sont publiés, si bien qu’on peut l’exécuter sur ses propres serveurs.
 - **Exemple :** pour garder les données sur place, l’équipe évalue un modèle à poids ouverts installé sur un serveur interne.
 - **Règle :** 2.
-- **Source :** aucune fiche du GDT pour ce sens (recherche du 10 novembre 2026).
+- **Source :** aucune fiche du GDT pour ce sens (recherche du 10 novembre 2026).
 - **Introduit dans :** C-02 (sujet facultatif).
 
 ### multimodal
@@ -401,7 +401,7 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 - **Définition :** qualifie un modèle qui traite plusieurs types de données à la fois, comme du texte et des images.
 - **Exemple :** vous joignez la photo d’un tableau blanc, et le modèle multimodal en tire une liste de tâches.
 - **Règle :** 1.
-- **Source :** GDT, fiche [« intelligence artificielle multimodale »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26574703/intelligence-artificielle-multimodale), mise à jour en 2025, consultée le 10 novembre 2026.
+- **Source :** GDT, fiche [« intelligence artificielle multimodale »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26574703/intelligence-artificielle-multimodale), mise à jour en 2025, consultée le 10 novembre 2026.
 - **Introduit dans :** C-01.
 
 ### notes de mise à jour
@@ -410,7 +410,7 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 - **Définition :** document qui accompagne une nouvelle version d’un logiciel et décrit ses nouvelles fonctions, ses corrections et ses limites.
 - **Exemple :** l’agent rédige les notes de mise à jour à partir des demandes de fusion acceptées, puis une personne les relit.
 - **Règle :** 1.
-- **Source :** GDT, fiche [« notes de mise à jour »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8871935/notes-de-mise-a-jour), mise à jour en 2001, consultée le 10 novembre 2026.
+- **Source :** GDT, fiche [« notes de mise à jour »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8871935/notes-de-mise-a-jour), mise à jour en 2001, consultée le 10 novembre 2026.
 - **Introduit dans :** E-08.
 - **Emploi :** toujours au pluriel. Le GDT donne aussi « notes complémentaires » et « notes techniques », mais les juge trop génériques.
 
@@ -420,7 +420,7 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 - **Définition :** devoir de répondre d’un résultat et des moyens choisis pour l’obtenir, même quand l’IA a fait une partie du travail.
 - **Exemple :** la personne qui envoie le rapport en a l’obligation de rendre compte, peu importe la façon dont il a été rédigé.
 - **Règle :** 1.
-- **Source :** GDT, fiche [« obligation de rendre compte »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26573352/obligation-de-rendre-compte) (FranceTerme, 2023), consultée le 10 novembre 2026.
+- **Source :** GDT, fiche [« obligation de rendre compte »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26573352/obligation-de-rendre-compte) (FranceTerme, 2023), consultée le 10 novembre 2026.
 - **Introduit dans :** C-06.
 - **Emploi :** selon la fiche [« responsabilisation »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8360360/responsabilisation) (mise à jour en 2008), « responsabilité » désigne l’obligation d’agir, une autre notion. L’adjectif « responsable » reste d’usage courant.
 
@@ -430,7 +430,7 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 - **Définition :** circonstance qui se présente à un moment donné, pour un temps limité, et qui permet de conclure une affaire.
 - **Exemple :** la demande d’offres de services de Location Pavois est une occasion d’affaires pour votre équipe.
 - **Règle :** 1.
-- **Source :** GDT, fiche [« occasion d’affaires »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8369702/occasion-daffaires), mise à jour en 2010, consultée le 10 novembre 2026.
+- **Source :** GDT, fiche [« occasion d’affaires »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8369702/occasion-daffaires), mise à jour en 2010, consultée le 10 novembre 2026.
 - **Introduit dans :** X-03.
 - **Emploi :** première étape de la carte d’un mandat. « Opportunité » ne s’emploie pas en ce sens.
 
@@ -440,7 +440,7 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 - **Définition :** document qui décrit, pour un client potentiel, les services qu’une entreprise propose, avec les délais et les coûts.
 - **Exemple :** l’offre de services de votre équipe couvre la phase 1 et reporte le paiement en ligne à une phase 2.
 - **Règle :** 1.
-- **Source :** GDT, fiche [« offre de service »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8377628/offre-de-service), mise à jour en 2006, consultée le 10 novembre 2026.
+- **Source :** GDT, fiche [« offre de service »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8377628/offre-de-service), mise à jour en 2006, consultée le 10 novembre 2026.
 - **Introduit dans :** B-04 et X-03.
 - **Emploi :** le GDT privilégie aussi « offre de service », au singulier. Le glossaire retient « offre de services ».
 
@@ -450,7 +450,7 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 - **Définition :** fonction que l’application laisse le modèle utiliser, comme la recherche Web, la lecture de fichiers ou l’exécution de code.
 - **Exemple :** grâce à l’outil de recherche Web, l’assistant cite des pages publiées après sa date limite des connaissances.
 - **Règle :** 2.
-- **Source :** aucune fiche du GDT pour ce sens (recherche du 10 novembre 2026). La fiche [« outil d’intelligence artificielle »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26574413/outil-dintelligence-artificielle) désigne une application (voir ce terme).
+- **Source :** aucune fiche du GDT pour ce sens (recherche du 10 novembre 2026). La fiche [« outil d’intelligence artificielle »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26574413/outil-dintelligence-artificielle) désigne une application (voir ce terme).
 - **Introduit dans :** C-01.
 
 ### passation
@@ -459,7 +459,7 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 - **Définition :** transmission écrite du travail en cours à la personne ou à la session suivante : ce qui est fait et la prochaine étape.
 - **Exemple :** en fin de journée, l’agent rédige une note de passation que la session du lendemain lit en premier.
 - **Règle :** 2.
-- **Source :** aucune fiche du GDT pour ce sens (recherche du 10 novembre 2026).
+- **Source :** aucune fiche du GDT pour ce sens (recherche du 10 novembre 2026).
 - **Introduit dans :** E-03.6.
 
 ### point d’approbation
@@ -468,7 +468,7 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 - **Définition :** étape où une personne doit approuver explicitement un résultat avant une action externe, irréversible ou lourde de conséquences.
 - **Exemple :** l’agent prépare le courriel au client, mais le point d’approbation exige votre accord avant l’envoi.
 - **Règle :** 2.
-- **Source :** aucune fiche du GDT pour la notion (recherche du 10 novembre 2026).
+- **Source :** aucune fiche du GDT pour la notion (recherche du 10 novembre 2026).
 - **Introduit dans :** C-06.
 - **Emploi :** « point de contrôle » est réservé à la question posée au groupe avant le récapitulatif de chaque leçon.
 
@@ -478,7 +478,7 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 - **Définition :** envoi des commits locaux vers un dépôt distant, où l’équipe peut les voir.
 - **Exemple :** vous envoyez les commits avec `git push` seulement après avoir lu le *diff*.
 - **Règle :** 4, nom d’une commande de Git (`git push`).
-- **Source :** aucune fiche du GDT pour le sens de la gestion de versions (recherche du 10 novembre 2026).
+- **Source :** aucune fiche du GDT pour le sens de la gestion de versions (recherche du 10 novembre 2026).
 - **Introduit dans :** E-02.
 - **Emploi :** comme verbe, écrivez « envoyer les commits », avec la commande `git push` à la première mention.
 
@@ -488,7 +488,7 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 - **Définition :** phrase courte qui décrit un besoin du point de vue de la personne qui utilise le produit.
 - **Exemple :** « En tant que gestionnaire de comptes, je veux exporter mes factures afin de les classer par client. »
 - **Règle :** 1.
-- **Source :** GDT, fiche [« récit utilisateur »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26528979/recit-utilisateur), mise à jour en 2021, consultée le 10 novembre 2026.
+- **Source :** GDT, fiche [« récit utilisateur »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26528979/recit-utilisateur), mise à jour en 2021, consultée le 10 novembre 2026.
 - **Introduit dans :** P-02.
 - **Emploi :** au pluriel, « des récits utilisateur ». Le GDT privilégie aussi « histoire utilisateur ». Le glossaire retient « récit utilisateur ».
 
@@ -498,7 +498,7 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 - **Définition :** action de concevoir et d’envoyer des requêtes à un assistant ou à un agent pour qu’il accomplisse une tâche.
 - **Exemple :** en atelier, vous pratiquez la rédaction de requêtes en comparant deux versions de la même demande.
 - **Règle :** 1.
-- **Source :** GDT, fiche [« rédaction de requêtes »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/10441153/redaction-de-requetes), mise à jour en 2025, consultée le 10 novembre 2026.
+- **Source :** GDT, fiche [« rédaction de requêtes »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/10441153/redaction-de-requetes), mise à jour en 2025, consultée le 10 novembre 2026.
 - **Introduit dans :** C-04.
 - **Emploi :** le GDT déconseille « rédaction de prompts » et « création de prompts ».
 
@@ -508,7 +508,7 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 - **Définition :** ensemble des techniques qui servent à formuler des requêtes précises pour obtenir de meilleurs résultats.
 - **Exemple :** l’équipe a réuni ses techniques de rédactique dans une page de conseils partagée.
 - **Règle :** 1.
-- **Source :** GDT, fiche [« rédactique »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26571214/redactique), mise à jour en 2023, consultée le 10 novembre 2026.
+- **Source :** GDT, fiche [« rédactique »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26571214/redactique), mise à jour en 2023, consultée le 10 novembre 2026.
 - **Introduit dans :** C-04.
 - **Emploi :** désigne la discipline. Pour l’activité, on dit « rédaction de requêtes ».
 
@@ -518,7 +518,7 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 - **Définition :** renseignements qui permettent d’identifier une personne physique, directement ou indirectement.
 - **Exemple :** vous retirez les noms et les numéros de téléphone du courriel avant de le coller, car ce sont des renseignements personnels.
 - **Règle :** 1.
-- **Source :** GDT, fiche [« renseignement personnel »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26532706/renseignement-personnel), mise à jour en 2022, consultée le 10 novembre 2026.
+- **Source :** GDT, fiche [« renseignement personnel »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26532706/renseignement-personnel), mise à jour en 2022, consultée le 10 novembre 2026.
 - **Introduit dans :** C-07.
 - **Emploi :** terme de la législation canadienne, selon le GDT. Il s’emploie surtout au pluriel.
 
@@ -528,7 +528,7 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 - **Définition :** texte, ou autre donnée, que vous envoyez à un assistant ou à un agent pour lui demander d’accomplir une tâche.
 - **Exemple :** votre requête demande un plan en trois parties, avec une phrase par partie.
 - **Règle :** 1.
-- **Source :** GDT, fiche [« requête »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26571209/requete), mise à jour en 2023, consultée le 10 novembre 2026.
+- **Source :** GDT, fiche [« requête »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26571209/requete), mise à jour en 2023, consultée le 10 novembre 2026.
 - **Introduit dans :** C-04.
 - **Emploi :** le GDT privilégie aussi « invite ». Le glossaire retient « requête », qui forme aussi « rédaction de requêtes » et « infiltration de requête ».
 
@@ -538,7 +538,7 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 - **Définition :** réunion de travail des parties concernées qui marque le début effectif d’un projet.
 - **Exemple :** à la réunion de démarrage, la directrice générale du client fixe la date du projet pilote.
 - **Règle :** 1.
-- **Source :** GDT, fiche [« réunion de démarrage »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26539018/reunion-de-demarrage) (FranceTerme, 2009), consultée le 10 novembre 2026. La fiche de l’OQLF [« réunion de démarrage »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/17034470/reunion-de-demarrage), mise à jour en 1988, privilégie aussi ce terme en publicité.
+- **Source :** GDT, fiche [« réunion de démarrage »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26539018/reunion-de-demarrage) (FranceTerme, 2009), consultée le 10 novembre 2026. La fiche de l’OQLF [« réunion de démarrage »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/17034470/reunion-de-demarrage), mise à jour en 1988, privilégie aussi ce terme en publicité.
 - **Introduit dans :** X-03.
 
 ### révision humaine
@@ -547,7 +547,7 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 - **Définition :** examen, par une personne compétente, d’un résultat produit par l’IA avant qu’il serve ou soit transmis.
 - **Exemple :** pendant la révision humaine du contrat, vous vérifiez chaque chiffre et chaque clause, pas seulement le style.
 - **Règle :** 2.
-- **Source :** aucune fiche du GDT pour la révision d’un résultat produit par l’IA (recherche du 10 novembre 2026).
+- **Source :** aucune fiche du GDT pour la révision d’un résultat produit par l’IA (recherche du 10 novembre 2026).
 - **Introduit dans :** C-06.
 - **Emploi :** pour le code, voir « revue de code ».
 
@@ -557,7 +557,7 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 - **Définition :** examen du code écrit par une autre personne ou par un agent, pour en repérer les erreurs avant sa fusion.
 - **Exemple :** la revue de code porte sur la logique et les tests, même quand le code vient d’un agent.
 - **Règle :** 1.
-- **Source :** GDT, fiche [« revue de code »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26529106/revue-de-code), mise à jour en 2014, consultée le 10 novembre 2026.
+- **Source :** GDT, fiche [« revue de code »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26529106/revue-de-code), mise à jour en 2014, consultée le 10 novembre 2026.
 - **Introduit dans :** E-05.
 - **Emploi :** le GDT privilégie aussi « révision de code » et « vérification de code ». Le glossaire retient « revue de code ».
 
@@ -567,7 +567,7 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 - **Définition :** information confidentielle qui donne accès à un système, comme une clé d’API ou un mot de passe.
 - **Exemple :** le fichier d’instructions interdit à l’agent de lire le dossier où sont rangés les secrets.
 - **Règle :** 2.
-- **Source :** aucune fiche du GDT pour ce sens (recherche du 10 novembre 2026).
+- **Source :** aucune fiche du GDT pour ce sens (recherche du 10 novembre 2026).
 - **Introduit dans :** E-03.4.
 
 ### skill
@@ -585,7 +585,7 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 - **Définition :** agent lancé par un autre agent pour accomplir une sous-tâche dans son propre contexte, puis lui rendre le résultat.
 - **Exemple :** l’agent principal confie la recherche de sources à un sous-agent et ne garde que son résumé.
 - **Règle :** 2.
-- **Source :** aucune fiche du GDT pour ce sens (recherche du 10 novembre 2026).
+- **Source :** aucune fiche du GDT pour ce sens (recherche du 10 novembre 2026).
 - **Introduit dans :** E-09.
 
 ### spécification
@@ -594,7 +594,7 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 - **Définition :** document qui décrit précisément ce qu’un produit ou un logiciel doit faire et les exigences qu’il doit respecter.
 - **Exemple :** l’agent travaille à partir de la spécification, et chaque critère d’acceptation devient un test.
 - **Règle :** 1.
-- **Source :** GDT, fiche [« spécification logicielle »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/3291766/specification-logicielle), mise à jour en 2021, consultée le 10 novembre 2026.
+- **Source :** GDT, fiche [« spécification logicielle »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/3291766/specification-logicielle), mise à jour en 2021, consultée le 10 novembre 2026.
 - **Introduit dans :** E-04.
 - **Emploi :** pas d’abréviation.
 
@@ -604,7 +604,7 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 - **Définition :** technique qui consiste à choisir, organiser et hiérarchiser l’information placée dans la fenêtre de contexte du modèle.
 - **Exemple :** par structuration contextuelle, vous ne joignez que les trois fichiers utiles au lieu du dépôt entier.
 - **Règle :** 1.
-- **Source :** GDT, fiche [« structuration contextuelle »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26584295/structuration-contextuelle), mise à jour en 2025, consultée le 10 novembre 2026.
+- **Source :** GDT, fiche [« structuration contextuelle »](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26584295/structuration-contextuelle), mise à jour en 2025, consultée le 10 novembre 2026.
 - **Introduit dans :** E-04.
 
 ### synthèse de découverte
@@ -613,7 +613,7 @@ Les entrées suivent l’ordre alphabétique du terme retenu.
 - **Définition :** document qui résume ce que l’équipe a appris à l’étape de la découverte : les besoins, les contraintes, les contradictions et les questions ouvertes.
 - **Exemple :** chaque récit utilisateur de l’atelier renvoie à un besoin de la synthèse de découverte.
 - **Règle :** 2.
-- **Source :** aucune fiche du GDT pour cette notion ni pour l’étape *discovery* (recherche du 10 novembre 2026).
+- **Source :** aucune fiche du GDT pour cette notion ni pour l’étape *discovery* (recherche du 10 novembre 2026).
 - **Introduit dans :** P-02.
 - **Emploi :** l’étape *discovery* se dit « découverte ». À distinguer de l’« énoncé de projet », qui présente le projet lui-même.
 

@@ -21,7 +21,7 @@ Turns one module card into one French lesson. A novice presenter who speaks slow
 2. **Plan, and show the plan before writing a new lesson.**
    - List the card's outcomes and required topics.
    - Plan one unit per idea, and map every required topic to a unit.
-   - Take the minutes from the card's Time line (OD-05). Budget the notes at about 110 words per planned minute of talk, which means the minutes minus the checkpoint and practice rows, where the room does the talking.
+   - Take the minutes from decision 0017: for a core module, the card's Time line plus its S-01 checkpoint row; otherwise the card's Time line. Budget the notes at about 110 words per planned minute of talk, which means the minutes minus the checkpoint and practice rows, where the room does the talking.
    - Count about one slide per two minutes of talk.
 3. **Write in template order:** front matter, short learner introduction, section slide, Objectifs, Déroulement, units, Point de contrôle, Pratique, Récapitulatif, Pour aller plus loin, À revérifier avant chaque prestation.
 4. **Units.** Each unit runs:

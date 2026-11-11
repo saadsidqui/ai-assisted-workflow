@@ -18,7 +18,7 @@ The versions are pinned in `tools/requirements.txt`, and the resolved set is in 
 | Script | What it checks | Run with |
 |---|---|---|
 | `check_lesson.py` | A lesson against `templates/lesson.md`: front matter, sections, slide regions and notes, timing table and marks, notes budget (110 words per minute of talk, ±15 %) | `.venv/bin/python tools/check_lesson.py lessons/…/X-00-….md` |
-| `check_french.py` | Typography checks F1 to F21 on French prose. The patterns are read from the `canadian-french` skill's `typography-checks.md` | `python3 tools/check_french.py FILE [--from-marker TEXT]` |
+| `check_french.py` | Typography checks F1 to F22 on French prose. The patterns are read from the `canadian-french` skill's `typography-checks.md` | `python3 tools/check_french.py FILE [--from-marker TEXT]` |
 | `check_contrast.py` | WCAG contrast of every token pair in `DESIGN.md`, or of any two colours | `python3 tools/check_contrast.py --tokens`, or `python3 tools/check_contrast.py ink surface` |
 
 Every checker exits with status 1 when something fails, so it can gate a step.

@@ -6,7 +6,7 @@ Where each part of a module card goes in the lesson built from `templates/lesson
 |---|---|---|
 | Header: Who | Front matter `track`, and the audience the examples address | Track value from `module-map.md` |
 | Header: Delivery | Nothing on the page; it decides which deck the slides join | See `module-map.md` |
-| Header: Time | Front matter `minutes` and the timing table total | The card's figure, as is (OD-05) |
+| Header: Time | Front matter `minutes` and the timing table total | Core: the card's figure plus the S-01 checkpoint row; other modules: the card's figure (decision 0017) |
 | Rationale paragraph | Learner introduction under the title | Rewritten in French, in one or two sentences |
 | Outcomes | Objectifs | One item per outcome, in the same order; each continues « vous serez en mesure » |
 | Required topics | One unit per idea (example slide, then concept slide) | Every bullet is covered; closely linked bullets may share a unit |

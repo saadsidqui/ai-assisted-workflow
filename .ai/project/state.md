@@ -2,28 +2,28 @@
 
 Stage: build
 
-Last updated: 2026-11-10
+Last updated: 2026-11-11
 
 ## Current focus
 
-Build order step 3, the fictional engagement brief (`resources/fictional-engagement.md`), is written pending the author's review.
-- OD-11 is settled; decision 0016 is `proposed` until the author accepts it.
-- The brief covers the client Location Pavois, the reservation portal, ten characters, the client's AI rules and the nine X-03 stages, with approvals, exercises and prepared starting points. It also covers the shared story for P-02 and E-02, the running example of the common session and the pack context paragraph.
-- The glossary gained seven stage and artifact terms and the program part names (decision 0012): 60 entries, 45 excluded terms, 68 index rows.
-- `status: review`; `native_review: pending` for the brief and the glossary.
-- **Waiting for:** the author's review, commit, and acceptance of decision 0016.
-- **Latest handoff:** `.ai/project/handoffs/2026-11-10-fictional-engagement.md`.
+Build order step 4, the core lessons. C-01 (`lessons/core/C-01-mental-model-and-vocabulary.md`, « Une image juste et les bons mots ») is written pending the author's review.
+- OD-05 is settled by decision 0017, which is `proposed` until the author accepts it.
+- Steps 2 and 3 are done: the glossary and the fictional engagement brief have `native_review: done 2026-11-11`.
+- Date typography is enforced by the new check F22.
+- **Waiting for:** the author's review and commit, and acceptance of decision 0017.
+- **Latest handoff:** `.ai/project/handoffs/2026-11-11-core-lessons.md`.
 
 Initialization is complete and locked. The plan and its history are decision 0001.
 
 ## Next steps
 
-1. **Build order step 4,** the core lessons C-01 to C-08, with X-02's segment 4 slide, using `lesson-writing`. The running example and every exercise fact come from the brief.
+1. **C-02, the landscape snapshot.** Settle OD-10 (who owns the snapshot) first.
+2. C-03 to C-08, one lesson per batch, with X-02's segment 4 slide alongside C-07.
+3. R-01 (further reading), right after the core lessons, so that their « Pour aller plus loin » sections can link to it (agreed by the author on 2026-11-11).
 
 ## Open questions
 
-1. Dates in the glossary and the README use ordinary spaces, while `DESIGN.md` section 9 asks for non-breaking ones, and no check catches it. Recommended: a separate small batch with a new check F22 (locked files: approval first).
-
-The decision brief (B-02) is settled when that lesson is written.
+1. Accept decision 0017 (lesson minutes and checkpoint rows).
+2. Approve adding R-01 to `.ai/project/spec/build-order.md` (locked) as the step after the core lessons.
 
 Content and program decisions that can wait are in `.ai/project/spec/open-decisions.md`.
