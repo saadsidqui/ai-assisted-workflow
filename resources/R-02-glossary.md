@@ -37,8 +37,6 @@ Les parties du programme portent ces noms dans tous les documents en français.
 
 ## Étapes de la boucle de travail
 
-<!-- Added 2026-11-11 with C-04, names settled by the author. Native-speaker review pending for this section only. -->
-
 La boucle de travail compte huit étapes. Elles portent ces noms dans tous les documents en français, toujours dans cet ordre.
 
 | Anglais | Français |

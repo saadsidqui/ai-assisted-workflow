@@ -33,7 +33,16 @@ On the branch `deliverables-by-role`, made by the author for this work: evaluate
 - **Phase 1, implemented** (permission: "Implement up to phase 1. All locked files involved in that phase are approved for edits, for this phase."):
   - decision 0020, deliverables by role (`proposed`);
   - decision 0021, build configuration, delivery data and packaging (`proposed`, supersedes 0005);
-  - the specification, `AGENTS.md`, the README and `.gitignore` aligned with both.
+  - the specification, `AGENTS.md`, the README and `.gitignore` aligned with both;
+  - the author accepted both records and committed batch 5a (`22593a5`).
+- **The author's second set of answers,** 2026-11-11:
+  - The common session becomes two parts of 90 minutes, by default and as its only format. The two-hour version is dropped, and no required topic is cut.
+  - Illustrations: option 1 only, local image generation with ComfyUI.
+  - The README « Status » paragraph is fixed in Phase 2 (approved).
+  - C-04's native review covers the glossary's step-name table.
+- **Phase 1, completed** (batch 5b):
+  - decision 0022, relaxed timing and session formats (`proposed`, supersedes 0017 and 0019);
+  - the "review pending" comment removed from the glossary's « Étapes de la boucle de travail ».
 
 ## Files changed
 
@@ -43,7 +52,14 @@ Batch 5a (Phase 1, decisions and specification):
 - `.ai/project/decisions/0021-build-configuration-and-packaging.md`: new, proposed.
 - `.ai/project/state.md`, this handoff.
 
-Locked files changed under the Phase 1 permission quoted above, 2026-11-11:
+Batch 5b (Phase 1, timing):
+
+- `.ai/project/decisions/0022-relaxed-timing-and-session-formats.md`: new, proposed.
+- `resources/R-02-glossary.md`: the comment on the step-name table removed (its native review is covered by C-04's).
+- `.ai/project/spec/open-decisions.md` (locked, under the Phase 1 permission): OD-01 settled by decision 0022.
+- `.ai/project/state.md`, this handoff.
+
+Locked files changed under the Phase 1 permission quoted above, 2026-11-11 (batch 5a):
 
 - `.ai/project/spec/deliverables.md`:
   - roles in the introduction;
@@ -72,6 +88,11 @@ Locked files changed under the Phase 1 permission quoted above, 2026-11-11:
   - ignored: `deliveries/x.toml`, `foo.pdf`, `build/dist/a.zip`, `.env`;
   - not ignored: `deliveries/example.toml`, `.env.example`.
 - `tools/check_french.py` on the French half of the README: 0 hits. One wording change for épicène writing: « les personnes qui suivent la formation » instead of a doublet.
+- Batch 5b: the timing of decision 0022 adds up.
+  - Part 1: welcome 8, C-01 22, C-03 and C-02 21, C-04 and C-05 32, so 83 minutes.
+  - Part 2: re-entry 4, segment 4 (29), workshop 32, C-08 8, recap 10, so 83 minutes.
+  - Total 166 minutes, and each part leaves 7 of its 90 minutes unallocated.
+- Batch 5b: `tools/check_french.py` on the glossary, 0 hits.
 
 ## The plan (Phases 2 to 7)
 
@@ -95,7 +116,7 @@ Each phase needs the author's permission, and each locked file needs an approval
 5. **Phase 6:** the presenter guide builder, with a schedule manifest, formats and relative or clock times.
 6. **Phase 7:** packaging, leak checks, the `publish` skill and `tools/README.md`.
 
-**Illustration options for Phase 4,** each needing the author's approval to install or download. Licences must be confirmed on their source pages before use.
+**Illustration options for Phase 4.** The author chose option 1 only, with ComfyUI. Installing ComfyUI and downloading a model still need the author's approval at Phase 4, and each licence must be confirmed on its source page before use.
 
 - **Local text-to-image generation:**
   - Hugging Face diffusers, or ComfyUI, in a separate environment outside `tools/requirements.txt`; images are committed as source assets with a provenance record.
@@ -108,11 +129,8 @@ Each phase needs the author's permission, and each locked file needs an approval
 
 ## Open questions
 
-1. **What the 2-hour main format teaches in the room.** With the relaxed rules, today's in-room content needs about 184 minutes. The 2-hour booking, with its 15-minute break (more than 100 minutes of content), leaves about 100 minutes of content. Recommended: the 2-hour format teaches C-01, C-03, C-04 (with C-05's point named during the demonstration), C-07 with X-02, the workshop, and C-02 as one slide. C-05, C-06 and C-08 are taught fully in the 2 × 90-minute format and are in the textbook. The alternative keeps every module in 2 hours with only partial relaxing.
-2. Accept decisions 0020 and 0021.
-3. The README's « Status » paragraph still says nothing is built yet, while four lessons exist. Update it in a later batch?
-4. (Carried over) Does the native review of C-04 cover the glossary's « Étapes de la boucle de travail » table?
+None.
 
 ## Next step
 
-Ask the open questions. Then write the timing decision, the third record of Phase 1, from the author's answer. Phase 2 starts only with the author's permission.
+Start the session routine and check that batch 5b is committed, with decision 0022 accepted or not. Phase 2 starts only with the author's permission; ask for approvals that name each locked file it touches. Phase 2 must also update S-01, the track pages, the curriculum index, `AGENTS.md` and the README to decision 0022.

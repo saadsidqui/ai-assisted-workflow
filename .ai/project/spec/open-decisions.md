@@ -9,7 +9,7 @@ Content and program decisions not yet taken. Each has a proposal and the point b
 - **Problem:** [S-01](curriculum/session/S-01-run-of-show.md) gives segment 4 ten minutes in the 120-minute booking. Its modules add up to twelve: C-06 5, C-07 5, X-02 2.
 - **Proposal:** count X-02's single slide inside C-07's five minutes. That slide is where C-07's data rule points ("where it lives"), so C-07 becomes 3 + 2 and the segment stays at ten minutes. The other option is to raise segment 4 to twelve minutes and take two from the unallocated margin.
 - **Settle by:** when C-07 and X-02 are written.
-- **Status:** open.
+- **Status:** settled on 2026-11-11 (decision 0022): the session is re-timed, and segment 4 holds C-06, C-07 and X-02 in full.
 
 ### OD-02 · Two names for one loop (P2)
 

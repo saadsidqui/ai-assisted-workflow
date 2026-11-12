@@ -78,4 +78,8 @@ Illustration, option 1 only, with comfyui.
 
   Replies:
   1. Then just make the 2x90 minutes the default. Do not cut reuquired topics. Drop 2hr version
-  2.
+  2. Accepted
+  3. Yes
+  4. Yes
+
+  Committed and pushed.
