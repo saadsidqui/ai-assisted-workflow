@@ -15,8 +15,19 @@ CLAUDE.local.md
 __pycache__/
 *.py[cod]
 
-# Built output: decks, PDFs, previews, tool caches (published as release assets, not committed)
+# Built output: decks, PDFs, previews, delivery archives, tool caches (never committed or published: decision 0021)
 /build/
+
+# Delivery data: specific to one organization and one delivery, never committed (decision 0021)
+/deliveries/*
+!/deliveries/README.md
+!/deliveries/example.toml
+
+# Safety net: built files belong in /build/ only
+*.pdf
+*.pptx
+*.odp
+*.zip
 
 # Office lock and temporary files
 ~$*

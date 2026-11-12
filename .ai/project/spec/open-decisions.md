@@ -106,13 +106,13 @@ D.1 to D.3 and D.5 to D.8 are covered by `AGENTS.md` and the curriculum conventi
 
 - **Proposal:** one GitHub release per delivery, named after its date and session. The author creates releases and tags.
 - **Settle by:** the first delivery.
-- **Status:** open.
+- **Status:** settled on 2026-11-11 (decision 0021): no built file is published, and each delivery's two archives are named after its date and session.
 
 ### OD-14 · Where demonstration recordings live
 
 - **Proposal:** outside git, as release assets or in storage the author chooses. The lesson links to the recording and dates it.
 - **Settle by:** the C-04 lesson.
-- **Status:** open.
+- **Status:** settled on 2026-11-11 (decision 0021): outside git, where the delivering organization chooses, with the link in the delivery file.
 
 ### OD-15 · Native-speaker review of the French
 

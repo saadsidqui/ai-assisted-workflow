@@ -60,7 +60,7 @@ These cards are not modules. They map to other deliverables, described in [`deli
 
 | ID | Card | Deliverable |
 |---|---|---|
-| S-01 | [`session/S-01-run-of-show.md`](curriculum/session/S-01-run-of-show.md) | `sessions/S-01-run-of-show.md`: presenter guide for the common session |
+| S-01 | [`session/S-01-run-of-show.md`](curriculum/session/S-01-run-of-show.md) | `guides/common-session/`: sources of the presenter guide for the common session (decision 0020) |
 | S-02 | [`session/S-02-workshop.md`](curriculum/session/S-02-workshop.md) | `workshops/S-02-workshop.md`: facilitator guide, with the packs and track versions beside it |
 | R-01 | [`resources/R-01-further-reading.md`](curriculum/resources/R-01-further-reading.md) | `resources/R-01-further-reading.md`: further reading |
 | R-02 | [`resources/R-02-glossary-seed.md`](curriculum/resources/R-02-glossary-seed.md) | `resources/R-02-glossary.md`: the glossary |

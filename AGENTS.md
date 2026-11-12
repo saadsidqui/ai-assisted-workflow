@@ -22,10 +22,12 @@ The deliverables are written in Canadian French: lessons with full speaker notes
 | `DESIGN.md` | Visual and editorial direction, tokens, French typography, patterns to avoid |
 | `templates/` | Templates for French deliverables, starting with `lesson.md` |
 | `lessons/` | One French lesson per module, at the same relative path as its card under `spec/curriculum/` |
-| `sessions/`, `workshops/`, `handouts/`, `resources/`, `decks/`, `books/` | Other French deliverables, and the manifests for decks and PDF textbooks (created on first use) |
+| `workshops/`, `handouts/`, `resources/`, `decks/`, `books/`, `guides/` | Other French deliverables, and the manifests for decks, PDF textbooks and presenter guides (created on first use) |
+| `deliveries/` | Data for one delivery (approved tools, date, links). Only `README.md` and a fictional `example.toml` are committed; real files are ignored by git |
 | `assets/` | Fonts, diagram sources, README images |
 | `tools/` | Build and check scripts (MIT licence) |
-| `build/` | Generated output; ignored by git and never committed |
+| `build/` | Generated output, delivery archives included; ignored by git, never committed or published |
+| `.env.example` | Build settings and their defaults; copy it to `.env`, which is ignored |
 | `.claude/skills/` | Project skills for Claude Code; see `CLAUDE.md` |
 
 While the stage is `init`, some of these paths do not exist yet. The initialization plan says which step creates each one. The plan is `.ai/project/init-plan.md`; after the lock it moves to `.ai/project/decisions/0001-initialization-plan.md`.
@@ -129,6 +131,7 @@ The lock is a rule you follow, not a technical barrier. It is backed by the auth
 - **Product names.** Public AI tools, vendors, standards and sources may be named where a card's topics require it. Version numbers, release numbers and dated product behaviour appear only in C-02 (landscape snapshot), in "re-verify" lists and in dated resource lists.
 - **Third-party material.** It keeps its own licence, is copied only when that licence allows it, and is listed in `THIRD_PARTY_NOTICES.md`.
 - **No sensitive data.** No secrets, personal data, details of a particular machine (operating system, installed versions, security settings, other devices) or conversation transcripts go in any file, including state, handoffs and knowledge notes.
+- **Delivery data.** What belongs to one organization or one delivery (its approved tools, dates, links) goes only in an ignored file under `deliveries/`, never in a committed file.
 
 ## Quality gates
 

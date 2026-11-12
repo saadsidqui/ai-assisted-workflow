@@ -6,23 +6,25 @@ Last updated: 2026-11-11
 
 ## Current focus
 
-Build order step 4, the core lessons. C-01 to C-04 are written, and their native-speaker review is done (`native_review: done 2026-11-11` in each). C-05 to C-08 remain.
-- Decisions 0018 (landscape snapshot) and 0019 (practice in core lessons) are accepted; OD-10 is settled.
-- The eight loop steps have French names in the glossary (« Étapes de la boucle de travail »); that table is still marked as waiting for native review.
-- **Waiting for:** the author's commit of batch 4g and of the native-review update.
-- **Latest handoff:** `.ai/project/handoffs/2026-11-11-landscape-snapshot.md`.
+Branch `deliverables-by-role`: deliverables tailored to each role (learner, presenter), build settings, packaging, a design revision and a relaxed timing model. The author approved a plan in seven phases (see the latest handoff) and permission to implement Phase 1 only.
+- Phase 1, decisions and specification: decisions 0020 (deliverables by role) and 0021 (build configuration and packaging, superseding 0005) are `proposed`; the specification, `AGENTS.md`, the README and `.gitignore` follow them.
+- The timing decision (Phase 1, third record) waits for one answer: what the 2-hour main format teaches in the room.
+- On the main line, C-01 to C-04 are written and native-reviewed; C-05 to C-08 remain, and resume after Phase 2 (new lesson conventions).
+- **Waiting for:** the author's answer on the 2-hour format, review and commit of batch 5a, and acceptance of decisions 0020 and 0021.
+- **Latest handoff:** `.ai/project/handoffs/2026-11-11-deliverables-by-role.md`.
 
 Initialization is complete and locked. The plan and its history are decision 0001.
 
 ## Next steps
 
-1. C-05 (context), then C-06 to C-08, one lesson per batch, with X-02's segment 4 slide alongside C-07. C-06's practice follows decision 0019.
-2. R-01 (further reading), right after the core lessons (build order, step 4).
-3. Before the first delivery: record the C-04 demonstration (its re-verify list) and write the fallback drafts with the S-01 presenter guide (build order, step 5).
-4. Before each delivery: refresh C-02 from its re-verify list (decision 0018); `knowledge/vendor-pages.md` says which vendor pages can be read automatically.
+1. Phase 1, end: write the timing decision (2-hour main format, 2 × 90 minutes as an option, 15-minute break in any session with more than about 100 minutes of content, C-06's practice in the room).
+2. Phase 2, conventions: glossary entry « personne qui présente » and the brief aligned; the writing rule, « Corrigé » and new timing rows in the template, `lesson-writing` and `check_lesson.py`; C-01 to C-04 revised; S-01, S-02 and the track session plans re-timed. Needs permission and approvals by file.
+3. Phases 3 to 7: build settings (`.env.example`, `deliveries/`), design samples (three directions, real PPTX and PDF), the chosen design in `DESIGN.md`, the presenter guide builder, packaging.
+4. Then C-05 to C-08 under the new conventions, and R-01.
 
 ## Open questions
 
-1. Does the native review of C-04 cover the glossary's « Étapes de la boucle de travail » table? If so, remove its "review pending" comment.
+1. What does the 2-hour main format teach in the room? See the latest handoff.
+2. Does the native review of C-04 cover the glossary's « Étapes de la boucle de travail » table? If so, remove its "review pending" comment.
 
 Content and program decisions that can wait are in `.ai/project/spec/open-decisions.md`.

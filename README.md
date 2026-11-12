@@ -44,12 +44,13 @@ Each part is a set of module cards in the specification (`.ai/project/spec/curri
 
 - **Language:** the lessons, handouts and workshop packs are in Canadian French.
 - **Where:** lessons are in `lessons/`, grouped by part; handouts are in `handouts/`.
-- **Textbooks and decks:** a PDF textbook for the common core and for each track, and the slide decks, are built on demand. They are published as files attached to a GitHub release and are not stored in the repository.
+- **Textbooks and slides:** a PDF textbook for the common core and for each track, and the slides as PDF, are built on demand by whoever delivers the program. The project publishes the sources only; built files are not stored in the repository or attached to releases.
 
 ### As a presenter
 
 - **Speaker notes:** each lesson carries full speaker notes, written for a presenter who is new to teaching. They have complete sentences, timing marks, the transition into each checkpoint, and what to skip when running late.
-- **Where:** the run of show for the common session will be in `sessions/`. The workshop packs, with presenter copies, will be in `workshops/`.
+- **Presenter guide:** a PDF built for each session, with the run sheet, the preparation checklists, the slides with their notes, and the workshop. Its sources will be in `guides/`. The workshop packs, with presenter copies, will be in `workshops/`.
+- **Building a delivery:** the decks, guides and textbooks are built locally, with settings in `.env` and the delivery's own data in an ignored file under `deliveries/`. Each delivery gives two archives: one for participants, one for the presenter.
 - **Before each delivery:** work through the "re-verify" list of every lesson you use, and refresh the landscape snapshot.
 
 ### As a contributor
@@ -120,12 +121,13 @@ Chaque partie correspond à des fiches de module dans la spécification (`.ai/pr
 
 - **Langue :** les leçons, les documents d’accompagnement et les trousses d’atelier sont rédigées en français canadien.
 - **Emplacement :** les leçons se trouvent dans `lessons/`, regroupées par partie; les documents d’accompagnement sont dans `handouts/`.
-- **Manuels et diaporamas :** un manuel PDF pour le tronc commun et pour chaque parcours, de même que les diaporamas, sont produits sur demande. Ils sont publiés comme fichiers joints à une publication GitHub (release) et ne sont pas conservés dans le dépôt.
+- **Manuels et diapositives :** un manuel PDF pour le tronc commun et pour chaque parcours, de même que les diapositives en PDF, sont produits sur demande par l’organisation qui donne la formation. Le projet ne publie que les sources : les fichiers produits ne sont ni conservés dans le dépôt ni joints aux publications.
 
 ### Vous présentez
 
 - **Notes de présentation :** chaque leçon contient des notes complètes, rédigées pour une personne qui débute en enseignement. Elles donnent des phrases complètes, des repères de temps, la transition vers chaque point de contrôle et ce qu’il faut sauter en cas de retard.
-- **Emplacement :** le déroulement de la séance commune se trouvera dans `sessions/`. Les trousses d’atelier, avec leur version pour l’animation, se trouveront dans `workshops/`.
+- **Guide de présentation :** un PDF produit pour chaque séance, avec le déroulement, les listes de préparation, les diapositives et leurs notes, et l’atelier. Ses sources se trouveront dans `guides/`. Les trousses d’atelier, avec leur version pour la personne qui présente, se trouveront dans `workshops/`.
+- **Produire une prestation :** les diaporamas, les guides et les manuels sont produits localement, avec des réglages dans `.env` et les données propres à la prestation dans un fichier ignoré, sous `deliveries/`. Chaque prestation donne deux archives : l’une pour les personnes qui suivent la formation, l’autre pour la personne qui présente.
 - **Avant chaque prestation :** passez en revue la liste « À revérifier » de chaque leçon utilisée et mettez à jour l’état des lieux des outils (module C-02).
 
 ### Vous contribuez
